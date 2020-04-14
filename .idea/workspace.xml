@@ -7,37 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70c84649-04a6-462c-8419-691f639ea7ef" name="Default" comment="首次提交">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/META-INF/WsparkServer.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/cn/com/wushang/wspark/Context.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/cn/com/wushang/wspark/pos/eai/ccb/CCBClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/cn/com/wushang/wspark/pos/eai/ccb/WGPayment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/cn/com/wushang/wspark/pos/eai/ccb/WGQuery.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/cn/com/wushang/wspark/pos/eai/cmb/CMBClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/cn/com/wushang/wspark/pos/eai/cmb/Util$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/cn/com/wushang/wspark/pos/eai/cmb/Util$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/cn/com/wushang/wspark/pos/eai/cmb/Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/cn/com/wushang/wspark/pos/server/PosServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/cn/com/wushang/wspark/pos/server/handler/DefaultHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/cn/com/wushang/wspark/pos/server/handler/ccb/CCBHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/cn/com/wushang/wspark/pos/server/handler/cmb/CMBHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/cn/com/wushang/wspark/pos/server/implementor/Dispatcher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/cn/com/wushang/wspark/pos/server/implementor/Listener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/cn/com/wushang/wspark/socket/SocketConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/cn/com/wushang/wspark/socket/SocketFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/cn/com/wushang/wspark/util/JsonUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/cn/com/wushang/wspark/util/ProtoUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/cn/com/wushang/wspark/util/RtUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/cn/com/wushang/wspark/util/SocketUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/cn/com/wushang/wspark/util/Tls$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/cn/com/wushang/wspark/util/Tls.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/cn/com/wushang/wspark/util/Tools.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/cn/com/wushang/wspark/util/Util.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -284,7 +254,7 @@
       <workItem from="1578032583201" duration="820000" />
       <workItem from="1578298039296" duration="742000" />
       <workItem from="1578451303961" duration="2755000" />
-      <workItem from="1586831249049" duration="548000" />
+      <workItem from="1586831249049" duration="1203000" />
     </task>
     <task id="LOCAL-00001" summary="首次提交">
       <created>1586831777481</created>
@@ -293,11 +263,18 @@
       <option name="project" value="LOCAL" />
       <updated>1586831777481</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="首次提交">
+      <created>1586832049243</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586832049243</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127664000" />
+    <option name="totallyTimeSpent" value="128319000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -324,7 +301,7 @@
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49871793" weight="0.35714287" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="6" visible="true" weight="0.32894737" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
