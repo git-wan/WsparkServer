@@ -1,0 +1,128 @@
+15:10:33.772  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+15:10:33.803  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+15:10:33.803  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+15:10:33.803  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+15:10:33.803  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+15:10:33.803  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+15:10:33.803  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+15:10:33.834  INFO  [main] Context:16 : Initializing Spring context.
+15:10:34.771  INFO  [main] Context:18 : Spring context initialized.
+15:10:34.771  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+15:14:52.993  DEBUG [Thread-1] Listener:73 : /179.0.3.253:1916
+15:14:53.055 179.0.3.253 DEBUG [taskExecutor-1] Dispatcher:63 : 15
+15:14:53.055 179.0.3.253 DEBUG [taskExecutor-1] Dispatcher:29 : request: cmb$閯侫94XT0:1
+15:14:53.087 179.0.3.253 DEBUG [taskExecutor-1] Dispatcher:36 : response: XXXXX:0:0
+15:15:08.993  DEBUG [Thread-1] Listener:73 : /179.0.3.253:1931
+15:15:09.008 179.0.3.253 DEBUG [taskExecutor-2] Dispatcher:63 : 15
+15:15:09.055 179.0.3.253 DEBUG [taskExecutor-2] Dispatcher:29 : request: cmb$閯侫94XT0:1
+15:15:09.055 179.0.3.253 DEBUG [taskExecutor-2] Dispatcher:36 : response: XXXXX:0:0
+15:18:24.343  DEBUG [Thread-1] Listener:73 : /179.0.3.253:1972
+15:18:33.157 179.0.3.253 DEBUG [taskExecutor-3] Dispatcher:63 : 15
+15:18:33.470 179.0.3.253 DEBUG [taskExecutor-3] Dispatcher:29 : request: cmb$閯侫94XT0:1
+15:18:33.470 179.0.3.253 DEBUG [taskExecutor-3] Dispatcher:36 : response: XXXXX:0:0
+15:18:51.071  DEBUG [Thread-1] Listener:73 : /179.0.3.253:1988
+15:19:13.665 179.0.3.253 DEBUG [taskExecutor-4] Dispatcher:63 : 15
+15:19:14.821 179.0.3.253 DEBUG [taskExecutor-4] Dispatcher:29 : request: cmb$閯侫94XT0:1
+15:19:14.821 179.0.3.253 DEBUG [taskExecutor-4] Dispatcher:36 : response: XXXXX:0:0
+15:28:28.826  DEBUG [Thread-1] Listener:73 : /179.0.3.253:2030
+15:29:18.840 179.0.3.253 WARN  [taskExecutor-5] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+15:32:56.376  DEBUG [Thread-1] Listener:73 : /179.0.3.253:2093
+15:32:56.376 179.0.3.253 DEBUG [taskExecutor-1] Dispatcher:63 : 26
+15:32:56.813 179.0.3.253 DEBUG [taskExecutor-1] Dispatcher:29 : request: cmb$ymWugFMnv0O5zOGl:100:3
+15:32:57.688 179.0.3.253 DEBUG [taskExecutor-1] Dispatcher:36 : response: ymWugFMnv0O5zOGl:0:0
+15:33:39.017  DEBUG [Thread-1] Listener:73 : /179.0.3.253:2106
+15:34:26.125 179.0.3.253 DEBUG [taskExecutor-2] Dispatcher:63 : 26
+15:34:26.734 179.0.3.253 DEBUG [taskExecutor-2] Dispatcher:29 : request: cmb$ymWugFMnv0O5zOGl:100:3
+15:34:27.203 179.0.3.253 DEBUG [taskExecutor-2] Dispatcher:36 : response: ymWugFMnv0O5zOGl:0:0
+15:39:25.966  DEBUG [Thread-1] Listener:73 : /179.0.3.253:2165
+15:39:28.763 179.0.3.253 DEBUG [taskExecutor-3] Dispatcher:63 : 26
+15:39:28.809 179.0.3.253 DEBUG [taskExecutor-3] Dispatcher:29 : request: cmb$ymWugFMnv0O5zOGl:100:3
+15:39:29.169 179.0.3.253 DEBUG [taskExecutor-3] Dispatcher:36 : response: ymWugFMnv0O5zOGl:0:0
+15:39:50.109  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+15:39:50.109  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+15:39:50.109  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+15:39:50.125  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+15:39:50.125  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+15:39:50.125  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+15:39:50.125  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+15:39:50.125  INFO  [main] Context:16 : Initializing Spring context.
+15:39:50.500  INFO  [main] Context:18 : Spring context initialized.
+15:39:50.500  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+15:41:20.634  DEBUG [Thread-1] Listener:73 : /179.0.3.253:2186
+15:41:20.634 179.0.3.253 DEBUG [taskExecutor-1] Dispatcher:63 : 26
+15:41:20.681 179.0.3.253 DEBUG [taskExecutor-1] Dispatcher:29 : request: cmb$ymWugFMnv0O5zOGl:100:3
+15:41:21.243 179.0.3.253 DEBUG [taskExecutor-1] CMBClient:97 : 收款返回参数{"version":"1.0","charset":"UTF-8","sign":"A271E89C49028EADEA506EFCF8CAD77A152C53BB373367692D9DBF54CA7FEB09","signType":"SHA-256","rspData":{"dateTime":"20191204153941","settleDate":"20191204","bankSerialNo":"9EGY912040002040","merchantSerialNo":"100","rspCode":"CMBMB62","rspMsg":"100商户流水重复!","agrNo":"ymWugFMnv0O5zOGl","amount":"0.03"}}
+15:41:21.540 179.0.3.253 DEBUG [taskExecutor-1] CMBClient:97 : 收款返回参数{"version":"1.0","charset":"UTF-8","sign":"D23CCE19AED3707F4335E556E4619BCC804E45BEF20918984B2D869859306917","signType":"SHA-256","rspData":{"dateTime":"20191204153942","settleDate":"20191204","bankSerialNo":"9EGY912040002041","merchantSerialNo":"100","rspCode":"CMBMB62","rspMsg":"100商户流水重复!","agrNo":"ymWugFMnv0O5zOGl","amount":"0.03"}}
+15:41:21.540 179.0.3.253 DEBUG [taskExecutor-1] Dispatcher:36 : response: ymWugFMnv0O5zOGl:0:0
+15:41:23.636  DEBUG [Thread-1] Listener:73 : /179.0.3.253:2187
+15:41:23.636 179.0.3.253 DEBUG [taskExecutor-2] Dispatcher:63 : 26
+15:41:23.698 179.0.3.253 DEBUG [taskExecutor-2] Dispatcher:29 : request: cmb$ymWugFMnv0O5zOGl:100:3
+15:41:23.823 179.0.3.253 DEBUG [taskExecutor-2] CMBClient:97 : 收款返回参数{"version":"1.0","charset":"UTF-8","sign":"2685C4918F8608FA55E1D2A0ADE5D220924CBA210975E9389758CF7D6D8FF698","signType":"SHA-256","rspData":{"dateTime":"20191204153944","settleDate":"20191204","bankSerialNo":"9EGY912040002042","merchantSerialNo":"100","rspCode":"CMBMB62","rspMsg":"100商户流水重复!","agrNo":"ymWugFMnv0O5zOGl","amount":"0.03"}}
+15:41:23.979 179.0.3.253 DEBUG [taskExecutor-2] CMBClient:97 : 收款返回参数{"version":"1.0","charset":"UTF-8","sign":"37B17401C3E03D7EEAFF29E9A67B0FE60396F100A5E37020099722578934B069","signType":"SHA-256","rspData":{"dateTime":"20191204153944","settleDate":"20191204","bankSerialNo":"9EGY912040002043","merchantSerialNo":"100","rspCode":"CMBMB62","rspMsg":"100商户流水重复!","agrNo":"ymWugFMnv0O5zOGl","amount":"0.03"}}
+15:41:23.979 179.0.3.253 DEBUG [taskExecutor-2] Dispatcher:36 : response: ymWugFMnv0O5zOGl:0:0
+15:41:25.260  DEBUG [Thread-1] Listener:73 : /179.0.3.253:2188
+15:41:25.260 179.0.3.253 DEBUG [taskExecutor-3] Dispatcher:63 : 26
+15:41:25.307 179.0.3.253 DEBUG [taskExecutor-3] Dispatcher:29 : request: cmb$ymWugFMnv0O5zOGl:100:3
+15:41:25.432 179.0.3.253 DEBUG [taskExecutor-3] CMBClient:97 : 收款返回参数{"version":"1.0","charset":"UTF-8","sign":"C98433D62E0DC6DDC3444CED434105309BB5B0E416BDE386D6F4C723F739C741","signType":"SHA-256","rspData":{"dateTime":"20191204153946","settleDate":"20191204","bankSerialNo":"9EGY912040002044","merchantSerialNo":"100","rspCode":"CMBMB62","rspMsg":"100商户流水重复!","agrNo":"ymWugFMnv0O5zOGl","amount":"0.03"}}
+15:41:25.604 179.0.3.253 DEBUG [taskExecutor-3] CMBClient:97 : 收款返回参数{"version":"1.0","charset":"UTF-8","sign":"9DFB197CD4A9700081B967482E27F791B2D3C77B0187B2F30CBC7C2565975438","signType":"SHA-256","rspData":{"dateTime":"20191204153946","settleDate":"20191204","bankSerialNo":"9EGY912040002045","merchantSerialNo":"100","rspCode":"CMBMB62","rspMsg":"100商户流水重复!","agrNo":"ymWugFMnv0O5zOGl","amount":"0.03"}}
+15:41:25.604 179.0.3.253 DEBUG [taskExecutor-3] Dispatcher:36 : response: ymWugFMnv0O5zOGl:0:0
+15:47:50.665  DEBUG [Thread-1] Listener:73 : /179.0.3.253:2238
+15:48:02.355 179.0.3.253 DEBUG [taskExecutor-4] Dispatcher:63 : 24
+15:48:02.417 179.0.3.253 DEBUG [taskExecutor-4] Dispatcher:29 : request: cmb$ymWugFMnv0O5zOGl:0:3
+15:48:02.761 179.0.3.253 DEBUG [taskExecutor-4] CMBClient:97 : 收款返回参数{"version":"1.0","charset":"UTF-8","sign":"2228BF3BDFCF634432D84507CA875381DE718E1F852F3F06DDB813E1C044309A","signType":"SHA-256","rspData":{"dateTime":"20191204154623","settleDate":"20191204","bankSerialNo":"9EGY912040002046","merchantSerialNo":"0","rspCode":"CMBMB45","rspMsg":"协议已注销","agrNo":"ymWugFMnv0O5zOGl","amount":"0.03"}}
+15:48:03.089 179.0.3.253 DEBUG [taskExecutor-4] CMBClient:97 : 收款返回参数{"version":"1.0","charset":"UTF-8","sign":"D101B49EC919F7841932D17AFEC29D0A37903234907482817D566D08C4C0D7A4","signType":"SHA-256","rspData":{"dateTime":"20191204154623","settleDate":"20191204","bankSerialNo":"9EGY912040002047","merchantSerialNo":"0","rspCode":"CMBMB62","rspMsg":"0商户流水重复!","agrNo":"ymWugFMnv0O5zOGl","amount":"0.03"}}
+15:48:03.089 179.0.3.253 DEBUG [taskExecutor-4] Dispatcher:36 : response: ymWugFMnv0O5zOGl:0:0
+15:48:10.259  DEBUG [Thread-1] Listener:73 : /179.0.3.253:2252
+15:48:16.245 179.0.3.253 DEBUG [taskExecutor-5] Dispatcher:63 : 26
+15:48:16.307 179.0.3.253 DEBUG [taskExecutor-5] Dispatcher:29 : request: cmb$ymWugFMnv0O5zOGl:313:3
+15:48:16.542 179.0.3.253 DEBUG [taskExecutor-5] CMBClient:97 : 收款返回参数{"version":"1.0","charset":"UTF-8","sign":"32A7B3B51BFF96C982302B1D53FE8E87050FCA33F169D795B6062E18F167EC80","signType":"SHA-256","rspData":{"dateTime":"20191204154637","settleDate":"20191204","bankSerialNo":"9EGY912040002048","merchantSerialNo":"313","rspCode":"CMBMB45","rspMsg":"协议已注销","agrNo":"ymWugFMnv0O5zOGl","amount":"0.03"}}
+15:48:16.760 179.0.3.253 DEBUG [taskExecutor-5] CMBClient:97 : 收款返回参数{"version":"1.0","charset":"UTF-8","sign":"BCAB31733F553780D85E09D753C0837A152E5C892587ECB1421C6A56D7CD747C","signType":"SHA-256","rspData":{"dateTime":"20191204154637","settleDate":"20191204","bankSerialNo":"9EGY912040002049","merchantSerialNo":"313","rspCode":"CMBMB62","rspMsg":"313商户流水重复!","agrNo":"ymWugFMnv0O5zOGl","amount":"0.03"}}
+15:48:16.760 179.0.3.253 DEBUG [taskExecutor-5] Dispatcher:36 : response: ymWugFMnv0O5zOGl:0:0
+15:48:27.183  DEBUG [Thread-1] Listener:73 : /179.0.3.253:2257
+15:48:29.432 179.0.3.253 DEBUG [taskExecutor-1] Dispatcher:63 : 27
+15:48:29.495 179.0.3.253 DEBUG [taskExecutor-1] Dispatcher:29 : request: cmb$ymWugFMnv0O5zOGl:8610:3
+15:48:29.839 179.0.3.253 DEBUG [taskExecutor-1] CMBClient:97 : 收款返回参数{"version":"1.0","charset":"UTF-8","sign":"FAE7F7884DF75F77CAA24492BD18C09BA3F5499AE455F90BF0D6842C96094AB8","signType":"SHA-256","rspData":{"dateTime":"20191204154650","settleDate":"20191204","bankSerialNo":"9EGY912040002050","merchantSerialNo":"8610","rspCode":"CMBMB45","rspMsg":"协议已注销","agrNo":"ymWugFMnv0O5zOGl","amount":"0.03"}}
+15:48:30.010 179.0.3.253 DEBUG [taskExecutor-1] CMBClient:97 : 收款返回参数{"version":"1.0","charset":"UTF-8","sign":"03AF6DA74EEF652AFDD5A58081FB623F9B9F707E51695B6C8B08276606C95BCF","signType":"SHA-256","rspData":{"dateTime":"20191204154650","settleDate":"20191204","bankSerialNo":"9EGY912040002051","merchantSerialNo":"8610","rspCode":"CMBMB62","rspMsg":"8610商户流水重复!","agrNo":"ymWugFMnv0O5zOGl","amount":"0.03"}}
+15:48:30.010 179.0.3.253 DEBUG [taskExecutor-1] Dispatcher:36 : response: ymWugFMnv0O5zOGl:0:0
+15:48:50.245  DEBUG [Thread-1] Listener:73 : /179.0.3.253:2267
+15:48:55.934 179.0.3.253 DEBUG [taskExecutor-2] Dispatcher:63 : 27
+15:48:55.996 179.0.3.253 DEBUG [taskExecutor-2] Dispatcher:29 : request: cmb$ymWugFMnv0O5zOGl:2025:3
+15:48:56.512 179.0.3.253 DEBUG [taskExecutor-2] CMBClient:97 : 收款返回参数{"version":"1.0","charset":"UTF-8","sign":"93E79B3691AB50B484D4472BFC3A1E7D0C79D4C0C1A65590409F08A635279CDB","signType":"SHA-256","rspData":{"dateTime":"20191204154717","settleDate":"20191204","bankSerialNo":"9EGY912040002052","merchantSerialNo":"2025","rspCode":"CMBMB45","rspMsg":"协议已注销","agrNo":"ymWugFMnv0O5zOGl","amount":"0.03"}}
+15:48:56.762 179.0.3.253 DEBUG [taskExecutor-2] CMBClient:97 : 收款返回参数{"version":"1.0","charset":"UTF-8","sign":"0D7192306043CFFEDB61F900498F00C5031896318485BA48E52C3111134E98F3","signType":"SHA-256","rspData":{"dateTime":"20191204154717","settleDate":"20191204","bankSerialNo":"9EGY912040002053","merchantSerialNo":"2025","rspCode":"CMBMB62","rspMsg":"2025商户流水重复!","agrNo":"ymWugFMnv0O5zOGl","amount":"0.03"}}
+15:48:56.762 179.0.3.253 DEBUG [taskExecutor-2] Dispatcher:36 : response: ymWugFMnv0O5zOGl:0:0
+15:50:48.828  DEBUG [Thread-1] Listener:73 : /179.0.3.253:2270
+15:50:53.423 179.0.3.253 DEBUG [taskExecutor-3] Dispatcher:63 : 27
+15:50:53.485 179.0.3.253 DEBUG [taskExecutor-3] Dispatcher:29 : request: cmb$ymWugFMnv0O5zOGl:2729:3
+15:50:53.782 179.0.3.253 DEBUG [taskExecutor-3] CMBClient:97 : 收款返回参数{"version":"1.0","charset":"UTF-8","sign":"38C4243D30AF0FB4E4399A52F91A1F940418385870DEFF5F79A35F6A72E5E7E9","signType":"SHA-256","rspData":{"dateTime":"20191204154914","settleDate":"20191204","bankSerialNo":"9EGY912040002054","merchantSerialNo":"2729","rspCode":"CMBMB45","rspMsg":"协议已注销","agrNo":"ymWugFMnv0O5zOGl","amount":"0.03"}}
+15:50:53.939 179.0.3.253 DEBUG [taskExecutor-3] CMBClient:97 : 收款返回参数{"version":"1.0","charset":"UTF-8","sign":"29C36F5A41C977E6B277EA5DA92DDF6361B6325929ABFDCDAFD987D53B594320","signType":"SHA-256","rspData":{"dateTime":"20191204154914","settleDate":"20191204","bankSerialNo":"9EGY912040002055","merchantSerialNo":"2729","rspCode":"CMBMB62","rspMsg":"2729商户流水重复!","agrNo":"ymWugFMnv0O5zOGl","amount":"0.03"}}
+15:50:53.939 179.0.3.253 DEBUG [taskExecutor-3] Dispatcher:36 : response: ymWugFMnv0O5zOGl:0:0
+15:52:08.657  DEBUG [Thread-1] Listener:73 : /179.0.3.253:2285
+15:52:08.672 179.0.3.253 DEBUG [taskExecutor-4] Dispatcher:63 : 24
+15:52:08.719 179.0.3.253 DEBUG [taskExecutor-4] Dispatcher:29 : request: cmb$e1QobylVNCSaOkB4:0:3
+15:52:08.938 179.0.3.253 DEBUG [taskExecutor-4] CMBClient:97 : 收款返回参数{"version":"1.0","charset":"UTF-8","sign":"96B08A28A49DE7D718023B20F1679FF8587E3CD7D040D456097C2768353B5F7A","signType":"SHA-256","rspData":{"dateTime":"20191204155029","settleDate":"20191204","bankSerialNo":"9EGY912040002056","merchantSerialNo":"0","rspCode":"CMBMB62","rspMsg":"0商户流水重复!","agrNo":"e1QobylVNCSaOkB4","amount":"0.03"}}
+15:52:09.172 179.0.3.253 DEBUG [taskExecutor-4] CMBClient:97 : 收款返回参数{"version":"1.0","charset":"UTF-8","sign":"39B86E76F86584E94993F3DC93E557A05B5DA1C132CBD246B19D54114988BC31","signType":"SHA-256","rspData":{"dateTime":"20191204155029","settleDate":"20191204","bankSerialNo":"9EGY912040002057","merchantSerialNo":"0","rspCode":"CMBMB62","rspMsg":"0商户流水重复!","agrNo":"e1QobylVNCSaOkB4","amount":"0.03"}}
+15:52:09.188 179.0.3.253 DEBUG [taskExecutor-4] Dispatcher:36 : response: e1QobylVNCSaOkB4:0:0
+15:52:10.641  DEBUG [Thread-1] Listener:73 : /179.0.3.253:2286
+15:52:10.641 179.0.3.253 DEBUG [taskExecutor-5] Dispatcher:63 : 26
+15:52:10.703 179.0.3.253 DEBUG [taskExecutor-5] Dispatcher:29 : request: cmb$e1QobylVNCSaOkB4:313:3
+15:52:10.906 179.0.3.253 DEBUG [taskExecutor-5] CMBClient:97 : 收款返回参数{"version":"1.0","charset":"UTF-8","sign":"A02E38C5FEF211B7EC54DFEBFD3FA127880EB6D56AA97FDE21D7FD6E3202DDD6","signType":"SHA-256","rspData":{"dateTime":"20191204155031","settleDate":"20191204","bankSerialNo":"9EGY912040002058","merchantSerialNo":"313","rspCode":"CMBMB62","rspMsg":"313商户流水重复!","agrNo":"e1QobylVNCSaOkB4","amount":"0.03"}}
+15:52:11.234 179.0.3.253 DEBUG [taskExecutor-5] CMBClient:97 : 收款返回参数{"version":"1.0","charset":"UTF-8","sign":"F3F9ACB01D90E06B5634E46EA106D178CE6BF76EFB09E6B1A5A1123C8488346B","signType":"SHA-256","rspData":{"dateTime":"20191204155031","settleDate":"20191204","bankSerialNo":"9EGY912040002059","merchantSerialNo":"313","rspCode":"CMBMB62","rspMsg":"313商户流水重复!","agrNo":"e1QobylVNCSaOkB4","amount":"0.03"}}
+15:52:11.234 179.0.3.253 DEBUG [taskExecutor-5] Dispatcher:36 : response: e1QobylVNCSaOkB4:0:0
+15:56:19.671  DEBUG [Thread-1] Listener:73 : /179.0.3.253:2303
+15:56:26.263 179.0.3.253 DEBUG [taskExecutor-1] Dispatcher:63 : 27
+15:56:26.310 179.0.3.253 DEBUG [taskExecutor-1] Dispatcher:29 : request: cmb$e1QobylVNCSaOkB4:8610:3
+15:56:26.544 179.0.3.253 DEBUG [taskExecutor-1] CMBClient:97 : 收款返回参数{"version":"1.0","charset":"UTF-8","sign":"C1678381C112091761B3FF683D04CE0A3762BC8DD5EADCEDFEE0CB6474FFE50B","signType":"SHA-256","rspData":{"dateTime":"20191204155447","settleDate":"20191204","bankSerialNo":"9EGY912040002060","merchantSerialNo":"8610","rspCode":"CMBMB62","rspMsg":"8610商户流水重复!","agrNo":"e1QobylVNCSaOkB4","amount":"0.03"}}
+15:56:26.747 179.0.3.253 DEBUG [taskExecutor-1] CMBClient:97 : 收款返回参数{"version":"1.0","charset":"UTF-8","sign":"4A64AA819A14B97BA7A6392D206A3DE1058F67F7922B07D0B18FB634FF3E6B66","signType":"SHA-256","rspData":{"dateTime":"20191204155447","settleDate":"20191204","bankSerialNo":"9EGY912040002061","merchantSerialNo":"8610","rspCode":"CMBMB62","rspMsg":"8610商户流水重复!","agrNo":"e1QobylVNCSaOkB4","amount":"0.03"}}
+15:56:26.747 179.0.3.253 DEBUG [taskExecutor-1] Dispatcher:36 : response: e1QobylVNCSaOkB4:0:0

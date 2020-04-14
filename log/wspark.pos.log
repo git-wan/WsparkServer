@@ -1,0 +1,134 @@
+09:31:42.745  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+09:31:42.761  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+09:31:42.761  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+09:31:42.761  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+09:31:42.761  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+09:31:42.761  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+09:31:42.761  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+09:31:42.761  INFO  [main] Context:16 : Initializing Spring context.
+09:31:43.136  INFO  [main] Context:18 : Spring context initialized.
+09:31:43.136  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+09:45:33.749  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+09:45:33.764  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+09:45:33.764  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+09:45:33.764  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+09:45:33.764  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+09:45:33.764  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+09:45:33.764  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+09:45:33.764  INFO  [main] Context:16 : Initializing Spring context.
+09:45:34.155  INFO  [main] Context:18 : Spring context initialized.
+09:45:34.155  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+09:57:19.187  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+09:57:19.193  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+09:57:19.193  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+09:57:19.193  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+09:57:19.193  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+09:57:19.194  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+09:57:19.194  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+09:57:19.199  INFO  [main] Context:16 : Initializing Spring context.
+09:57:19.601  INFO  [main] Context:18 : Spring context initialized.
+09:57:19.602  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+11:56:25.868  DEBUG [Thread-1] Listener:73 : /179.0.3.253:3293
+11:56:25.882 179.0.3.253 DEBUG [taskExecutor-1] Dispatcher:63 : 31
+11:56:25.909 179.0.3.253 DEBUG [taskExecutor-1] Dispatcher:29 : request: cmb$e1QobylVNCSaOkB4:7909460:10
+11:56:31.018 179.0.3.253 DEBUG [taskExecutor-1] CMBClient:101 : 收款返回参数:
+11:56:31.020 179.0.3.253 DEBUG [taskExecutor-1] Dispatcher:36 : response: XXXXX:0:0
+11:58:16.753  DEBUG [Thread-1] Listener:73 : /179.0.3.253:3321
+11:58:16.755 179.0.3.253 DEBUG [taskExecutor-2] Dispatcher:63 : 31
+11:58:16.796 179.0.3.253 DEBUG [taskExecutor-2] Dispatcher:29 : request: cmb$e1QobylVNCSaOkB4:7909462:10
+11:58:21.640 179.0.3.253 DEBUG [taskExecutor-2] CMBClient:101 : 收款返回参数:{"version":"1.0","charset":"UTF-8","sign":"7059BBC1CCCE319CEDA8C6F3A7A4A9C6DC6288CAA53EE042F560872C6A411347","signType":"SHA-256","rspData":{"dateTime":"20191205115641","settleDate":"20191205","merch_prod":"","bankSerialNo":"9EGY912050002081","merchantSerialNo":"7909462","rspCode":"SUC0000","rspMsg":"收款交易成功","agrNo":"e1QobylVNCSaOkB4","amount":"0.1","discountAmount":"0","userPidType":"1","userPidHash":"767408505837464567703135772057","discountFlag":"N","fee_amt":"0.01","card_type":"02"}}
+11:58:21.642 179.0.3.253 DEBUG [taskExecutor-2] Dispatcher:36 : response: e1QobylVNCSaOkB4:0:0
+12:14:41.173  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+12:14:41.179  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+12:14:41.180  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+12:14:41.180  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+12:14:41.180  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+12:14:41.181  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+12:14:41.181  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+12:14:41.187  INFO  [main] Context:16 : Initializing Spring context.
+12:14:41.558  INFO  [main] Context:18 : Spring context initialized.
+12:14:41.560  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+13:27:50.136  DEBUG [Thread-1] Listener:73 : /179.0.3.253:3703
+13:27:50.144 179.0.3.253 DEBUG [taskExecutor-1] Dispatcher:63 : 31
+13:27:50.177 179.0.3.253 DEBUG [taskExecutor-1] Dispatcher:29 : request: cmb$e1QobylVNCSaOkB4:7909464:10
+13:27:55.291 179.0.3.253 DEBUG [taskExecutor-1] CMBClient:101 : 收款返回参数:
+13:27:55.296 179.0.3.253 DEBUG [taskExecutor-1] Dispatcher:36 : response: XXXXX:0:0
+13:28:47.242  DEBUG [Thread-1] Listener:73 : /179.0.3.253:3721
+13:28:47.243 179.0.3.253 DEBUG [taskExecutor-2] Dispatcher:63 : 31
+13:28:47.285 179.0.3.253 DEBUG [taskExecutor-2] Dispatcher:29 : request: cmb$e1QobylVNCSaOkB4:7909466:10
+13:28:52.313 179.0.3.253 DEBUG [taskExecutor-2] CMBClient:101 : 收款返回参数:
+13:28:52.314 179.0.3.253 DEBUG [taskExecutor-2] Dispatcher:36 : response: XXXXX:0:0
+13:33:01.078  DEBUG [Thread-1] Listener:73 : /179.0.3.253:3735
+13:33:01.084 179.0.3.253 DEBUG [taskExecutor-3] Dispatcher:63 : 31
+13:33:01.120 179.0.3.253 DEBUG [taskExecutor-3] Dispatcher:29 : request: cmb$e1QobylVNCSaOkB4:7909468:10
+13:33:06.152 179.0.3.253 DEBUG [taskExecutor-3] CMBClient:101 : 收款返回参数:
+13:33:06.153 179.0.3.253 DEBUG [taskExecutor-3] Dispatcher:36 : response: XXXXX:0:0
+13:36:44.200  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+13:36:44.217  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+13:36:44.218  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+13:36:44.218  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+13:36:44.220  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+13:36:44.261  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+13:36:44.261  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+13:36:44.271  INFO  [main] Context:16 : Initializing Spring context.
+13:36:44.858  INFO  [main] Context:18 : Spring context initialized.
+13:36:44.859  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+13:37:43.682  DEBUG [Thread-1] Listener:73 : /179.0.3.253:3770
+13:37:43.688 179.0.3.253 DEBUG [taskExecutor-1] Dispatcher:63 : 31
+13:37:43.724 179.0.3.253 DEBUG [taskExecutor-1] Dispatcher:29 : request: cmb$e1QobylVNCSaOkB4:7909470:10
+13:37:48.719 179.0.3.253 DEBUG [taskExecutor-1] CMBClient:101 : 收款返回参数:{"version":"1.0","charset":"UTF-8","sign":"7688E368442CF0A028B0B0482EDCD28B2E9D5741B6931758AE6931E7AD109D6D","signType":"SHA-256","rspData":{"dateTime":"20191205133608","bankSerialNo":"9EGY912050002154","merchantSerialNo":"7909470","rspCode":"CMBRECV","rspMsg":"交易已收妥","agrNo":"e1QobylVNCSaOkB4","amount":"0.1"}}
+13:37:48.948 179.0.3.253 DEBUG [taskExecutor-1] CMBClient:116 : 查询订单返回参数:{"version":"1.0","charset":"UTF-8","sign":"460D0AAC070F5C09D0A5F5E1290B401F1D16AC9388C01855BE8D418C3B7CCAAC","signType":"SHA-256","rspData":{"dateTime":"20191205133608","settleDate":"20191205","origBankSerialNo":"9EGY912050002154","rspCode":"SUC0000","rspMsg":"单笔查询成功","agrNo":"e1QobylVNCSaOkB4","amount":"0.1","discountAmount":"0","discountFlag":"N","fee_amt":"0.01","card_type":"02","origRspCode":"SUC0000","origRspMsg":"原交易成功: 协议号[e1QobylVNCSaOkB4], 金额[0.1]元"}}
+13:37:48.948 179.0.3.253 DEBUG [taskExecutor-1] Dispatcher:36 : response: e1QobylVNCSaOkB4:1:9EGY912050002154
+13:39:15.171  DEBUG [Thread-1] Listener:73 : /179.0.3.253:3780
+13:39:15.173 179.0.3.253 DEBUG [taskExecutor-2] Dispatcher:63 : 31
+13:39:15.212 179.0.3.253 DEBUG [taskExecutor-2] Dispatcher:29 : request: cmb$e1QobylVNCSaOkB4:7909472:10
+13:39:20.239 179.0.3.253 DEBUG [taskExecutor-2] CMBClient:101 : 收款返回参数:
+13:39:20.239 179.0.3.253 DEBUG [taskExecutor-2] Dispatcher:36 : response: XXXXX:0:0
+13:39:53.596  DEBUG [Thread-1] Listener:73 : /179.0.3.253:3785
+13:39:53.598 179.0.3.253 DEBUG [taskExecutor-3] Dispatcher:63 : 31
+13:39:53.639 179.0.3.253 DEBUG [taskExecutor-3] Dispatcher:29 : request: cmb$e1QobylVNCSaOkB4:7909474:10
+13:39:58.667 179.0.3.253 DEBUG [taskExecutor-3] CMBClient:101 : 收款返回参数:
+13:39:58.668 179.0.3.253 DEBUG [taskExecutor-3] Dispatcher:36 : response: XXXXX:0:0
+13:40:56.302  DEBUG [Thread-1] Listener:73 : /179.0.3.253:3820
+13:40:56.303 179.0.3.253 DEBUG [taskExecutor-4] Dispatcher:63 : 31
+13:40:56.344 179.0.3.253 DEBUG [taskExecutor-4] Dispatcher:29 : request: cmb$e1QobylVNCSaOkB4:7909476:10
+13:40:59.761 179.0.3.253 DEBUG [taskExecutor-4] CMBClient:101 : 收款返回参数:{"version":"1.0","charset":"UTF-8","sign":"A4225C2410F7D3EB6DD236C1C3B957A2478B8277B2D63D7711298E68171B58B8","signType":"SHA-256","rspData":{"dateTime":"20191205133919","settleDate":"20191205","merch_prod":"","bankSerialNo":"9EGY912050002209","merchantSerialNo":"7909476","rspCode":"SUC0000","rspMsg":"收款交易成功","agrNo":"e1QobylVNCSaOkB4","amount":"0.1","discountAmount":"0","userPidType":"1","userPidHash":"767408505837464567703135772057","discountFlag":"N","fee_amt":"0.01","card_type":"02"}}
+13:41:00.418 179.0.3.253 DEBUG [taskExecutor-4] CMBClient:116 : 查询订单返回参数:{"version":"1.0","charset":"UTF-8","sign":"9AAB735CFFA1F4B2DC2C2E480D637E6A0E43934FF87EB556E2C9BF91C30A922C","signType":"SHA-256","rspData":{"dateTime":"20191205133919","settleDate":"20191205","origBankSerialNo":"9EGY912050002209","rspCode":"SUC0000","rspMsg":"单笔查询成功","agrNo":"e1QobylVNCSaOkB4","amount":"0.1","discountAmount":"0","discountFlag":"N","fee_amt":"0.01","card_type":"02","origRspCode":"SUC0000","origRspMsg":"原交易成功: 协议号[e1QobylVNCSaOkB4], 金额[0.1]元"}}
+13:41:00.418 179.0.3.253 DEBUG [taskExecutor-4] Dispatcher:36 : response: e1QobylVNCSaOkB4:1:9EGY912050002209
+13:41:21.814  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+13:41:21.820  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+13:41:21.821  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+13:41:21.821  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+13:41:21.821  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+13:41:21.822  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+13:41:21.823  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+13:41:21.828  INFO  [main] Context:16 : Initializing Spring context.
+13:41:22.213  INFO  [main] Context:18 : Spring context initialized.
+13:41:22.213  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+13:41:24.239  DEBUG [Thread-1] Listener:73 : /179.0.3.253:3831
+13:41:24.243 179.0.3.253 DEBUG [taskExecutor-1] Dispatcher:63 : 31
+13:41:24.283 179.0.3.253 DEBUG [taskExecutor-1] Dispatcher:29 : request: cmb$e1QobylVNCSaOkB4:7909478:10
+13:41:26.728 179.0.3.253 DEBUG [taskExecutor-1] CMBClient:101 : 收款返回参数:{"version":"1.0","charset":"UTF-8","sign":"F0BEE9BAA349E2CE4908B1ECF81A21A55F88A16503394E2EC41015DCB86D5997","signType":"SHA-256","rspData":{"dateTime":"20191205133946","settleDate":"20191205","merch_prod":"","bankSerialNo":"9EGY912050002221","merchantSerialNo":"7909478","rspCode":"SUC0000","rspMsg":"收款交易成功","agrNo":"e1QobylVNCSaOkB4","amount":"0.1","discountAmount":"0","userPidType":"1","userPidHash":"767408505837464567703135772057","discountFlag":"N","fee_amt":"0.01","card_type":"02"}}
+13:41:26.944 179.0.3.253 DEBUG [taskExecutor-1] CMBClient:116 : 查询订单返回参数:{"version":"1.0","charset":"UTF-8","sign":"5AD6BBFE6AA00C3ABD321EDEE51D938A3545AAEB41F8FDF05B81B4A205BC938C","signType":"SHA-256","rspData":{"dateTime":"20191205133946","settleDate":"20191205","origBankSerialNo":"9EGY912050002221","rspCode":"SUC0000","rspMsg":"单笔查询成功","agrNo":"e1QobylVNCSaOkB4","amount":"0.1","discountAmount":"0","discountFlag":"N","fee_amt":"0.01","card_type":"02","origRspCode":"SUC0000","origRspMsg":"原交易成功: 协议号[e1QobylVNCSaOkB4], 金额[0.1]元"}}
+13:41:26.944 179.0.3.253 DEBUG [taskExecutor-1] Dispatcher:36 : response: e1QobylVNCSaOkB4:1:9EGY912050002221
+13:41:51.805  DEBUG [Thread-1] Listener:73 : /179.0.3.253:3840
+13:41:51.806 179.0.3.253 DEBUG [taskExecutor-2] Dispatcher:63 : 31
+13:41:51.850 179.0.3.253 DEBUG [taskExecutor-2] Dispatcher:29 : request: cmb$e1QobylVNCSaOkB4:7909480:10
+13:41:55.770 179.0.3.253 DEBUG [taskExecutor-2] CMBClient:101 : 收款返回参数:{"version":"1.0","charset":"UTF-8","sign":"25B9675A3AF803D31A4471A517D07D93ADAE454C2972976254585C7A610A3A04","signType":"SHA-256","rspData":{"dateTime":"20191205134015","settleDate":"20191205","merch_prod":"","bankSerialNo":"9EGY912050002230","merchantSerialNo":"7909480","rspCode":"SUC0000","rspMsg":"收款交易成功","agrNo":"e1QobylVNCSaOkB4","amount":"0.1","discountAmount":"0","userPidType":"1","userPidHash":"767408505837464567703135772057","discountFlag":"N","fee_amt":"0.01","card_type":"02"}}
+13:41:56.051 179.0.3.253 DEBUG [taskExecutor-2] CMBClient:116 : 查询订单返回参数:{"version":"1.0","charset":"UTF-8","sign":"3D950744BABBCF6F0620A955B326FC1B75E6E2E40EEA6E53410FDDD63FB76552","signType":"SHA-256","rspData":{"dateTime":"20191205134015","settleDate":"20191205","origBankSerialNo":"9EGY912050002230","rspCode":"SUC0000","rspMsg":"单笔查询成功","agrNo":"e1QobylVNCSaOkB4","amount":"0.1","discountAmount":"0","discountFlag":"N","fee_amt":"0.01","card_type":"02","origRspCode":"SUC0000","origRspMsg":"原交易成功: 协议号[e1QobylVNCSaOkB4], 金额[0.1]元"}}
+13:41:56.052 179.0.3.253 DEBUG [taskExecutor-2] Dispatcher:36 : response: e1QobylVNCSaOkB4:1:9EGY912050002230
+13:42:20.465  DEBUG [Thread-1] Listener:73 : /179.0.3.253:3853
+13:42:20.466 179.0.3.253 DEBUG [taskExecutor-3] Dispatcher:63 : 31
+13:42:20.508 179.0.3.253 DEBUG [taskExecutor-3] Dispatcher:29 : request: cmb$e1QobylVNCSaOkB4:7909482:10
+13:42:25.533 179.0.3.253 DEBUG [taskExecutor-3] CMBClient:101 : 收款返回参数:
+13:42:25.533 179.0.3.253 DEBUG [taskExecutor-3] Dispatcher:36 : response: XXXXX:0:0
+14:34:37.700  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+14:34:37.716  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+14:34:37.716  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+14:34:37.716  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+14:34:37.716  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+14:34:37.716  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+14:34:37.716  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+14:34:37.716  INFO  [main] Context:16 : Initializing Spring context.
+14:34:38.107  INFO  [main] Context:18 : Spring context initialized.
+14:34:38.107  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102

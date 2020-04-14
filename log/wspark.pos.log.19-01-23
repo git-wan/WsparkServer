@@ -1,0 +1,1077 @@
+10:21:03.927  INFO  [main] PosServer:14 : 武商停车场服务(18.07.18.1)
+10:21:03.934  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+10:21:03.935  INFO  [main] RtUtils:18 : 虚拟机版本:24.80-b11
+10:21:03.935  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+10:21:03.935  INFO  [main] RtUtils:20 : 系统版本:1.7.0_80
+10:21:03.935  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+10:21:03.935  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+10:21:03.942  INFO  [main] Context:16 : Initializing Spring context.
+10:21:04.627  INFO  [main] Context:18 : Spring context initialized.
+10:21:04.627  INFO  [Thread-1] Listener:65 : listen: 168.0.1.210:5102
+10:21:04.689  WARN  [Thread-1] Listener:82 : 
+java.net.BindException: Cannot assign requested address: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:376)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:376)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at cn.com.wushang.wspark.pos.server.implementor.Listener.run(Listener.java:67)
+	at java.lang.Thread.run(Thread.java:745)
+10:21:50.143  INFO  [main] PosServer:14 : 武商停车场服务(18.07.18.1)
+10:21:50.147  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+10:21:50.147  INFO  [main] RtUtils:18 : 虚拟机版本:24.80-b11
+10:21:50.147  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+10:21:50.147  INFO  [main] RtUtils:20 : 系统版本:1.7.0_80
+10:21:50.148  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+10:21:50.148  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+10:21:50.156  INFO  [main] Context:16 : Initializing Spring context.
+10:21:50.445  INFO  [main] Context:18 : Spring context initialized.
+10:21:50.446  INFO  [Thread-1] Listener:65 : listen: 189.0.1.65:5102
+10:23:10.452  DEBUG [Thread-1] Listener:72 : /189.0.1.65:62379
+10:23:13.477 189.0.1.65 WARN  [taskExecutor-1] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+10:23:44.950  DEBUG [Thread-1] Listener:72 : /189.0.1.65:62386
+10:23:49.119 189.0.1.65 WARN  [taskExecutor-2] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:61)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+10:24:10.403  DEBUG [Thread-1] Listener:72 : /189.0.1.65:62391
+10:24:12.089 189.0.1.65 WARN  [taskExecutor-3] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+10:24:19.729  DEBUG [Thread-1] Listener:72 : /189.0.1.65:62393
+10:24:21.606 189.0.1.65 WARN  [taskExecutor-4] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:61)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+10:27:09.382  INFO  [main] PosServer:14 : 武商停车场服务(18.07.18.1)
+10:27:09.385  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+10:27:09.386  INFO  [main] RtUtils:18 : 虚拟机版本:24.80-b11
+10:27:09.386  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+10:27:09.386  INFO  [main] RtUtils:20 : 系统版本:1.7.0_80
+10:27:09.386  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+10:27:09.386  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+10:27:09.393  INFO  [main] Context:16 : Initializing Spring context.
+10:27:09.673  INFO  [main] Context:18 : Spring context initialized.
+10:27:09.673  INFO  [Thread-1] Listener:65 : listen: 189.0.1.65:5102
+10:27:47.594  DEBUG [Thread-1] Listener:72 : /189.0.1.65:62438
+10:27:51.765 189.0.1.65 WARN  [taskExecutor-1] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:61)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+10:30:37.427  DEBUG [Thread-1] Listener:72 : /189.0.1.65:62467
+10:30:39.684 189.0.1.65 WARN  [taskExecutor-2] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:61)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+10:32:15.968  DEBUG [Thread-1] Listener:72 : /189.0.1.65:62484
+10:32:21.842 189.0.1.65 WARN  [taskExecutor-3] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:61)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+10:42:10.340  DEBUG [Thread-1] Listener:72 : /189.0.1.65:62566
+10:42:15.965 189.0.1.65 WARN  [taskExecutor-4] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:61)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+10:45:00.375  INFO  [main] PosServer:14 : 武商停车场服务(18.07.18.1)
+10:45:00.379  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+10:45:00.379  INFO  [main] RtUtils:18 : 虚拟机版本:24.80-b11
+10:45:00.380  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+10:45:00.380  INFO  [main] RtUtils:20 : 系统版本:1.7.0_80
+10:45:00.380  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+10:45:00.380  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+10:45:00.387  INFO  [main] Context:16 : Initializing Spring context.
+10:45:00.671  INFO  [main] Context:18 : Spring context initialized.
+10:45:00.672  INFO  [Thread-1] Listener:65 : listen: 189.0.1.65:5102
+10:45:10.797  DEBUG [Thread-1] Listener:72 : /189.0.1.65:62609
+10:45:13.007 189.0.1.65 WARN  [taskExecutor-1] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+10:45:22.302  DEBUG [Thread-1] Listener:72 : /189.0.1.65:62612
+10:45:24.227 189.0.1.65 WARN  [taskExecutor-2] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+10:45:39.910  DEBUG [Thread-1] Listener:72 : /189.0.1.65:62617
+10:45:43.757 189.0.1.65 DEBUG [taskExecutor-3] Dispatcher:60 : 接收长度: 1650680598
+10:45:44.386 189.0.1.65 WARN  [taskExecutor-3] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+10:45:58.188  DEBUG [Thread-1] Listener:72 : /189.0.1.65:62620
+10:46:01.988 189.0.1.65 DEBUG [taskExecutor-4] Dispatcher:60 : 接收长度: 1667446321
+10:46:02.611 189.0.1.65 WARN  [taskExecutor-4] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+10:48:21.260  DEBUG [Thread-1] Listener:72 : /189.0.1.65:62650
+10:48:24.906 189.0.1.65 WARN  [taskExecutor-5] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+10:48:24.917  DEBUG [Thread-1] Listener:72 : /189.0.1.65:62652
+10:48:27.921 189.0.1.65 WARN  [taskExecutor-1] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+10:48:27.935  DEBUG [Thread-1] Listener:72 : /189.0.1.65:62653
+10:48:30.937 189.0.1.65 WARN  [taskExecutor-2] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+10:48:30.951  DEBUG [Thread-1] Listener:72 : /189.0.1.65:62654
+10:48:32.009 189.0.1.65 WARN  [taskExecutor-3] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+10:48:35.061  DEBUG [Thread-1] Listener:72 : /189.0.1.65:62656
+10:48:38.142 189.0.1.65 DEBUG [taskExecutor-4] Dispatcher:60 : 接收长度: 1667438080
+10:48:38.701 189.0.1.65 WARN  [taskExecutor-4] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+10:57:54.765  DEBUG [Thread-1] Listener:72 : /189.0.1.65:62965
+10:57:55.349 189.0.1.65 DEBUG [taskExecutor-5] Dispatcher:60 : 接收长度: 808529968
+10:57:58.676 189.0.1.65 WARN  [taskExecutor-5] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+10:57:58.682  DEBUG [Thread-1] Listener:72 : /189.0.1.65:49971
+10:57:58.947 189.0.1.65 WARN  [taskExecutor-1] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+10:57:59.796  DEBUG [Thread-1] Listener:72 : /189.0.1.65:49972
+10:58:04.191 189.0.1.65 WARN  [taskExecutor-2] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+10:58:04.201  DEBUG [Thread-1] Listener:72 : /189.0.1.65:49976
+10:58:04.303 189.0.1.65 DEBUG [taskExecutor-3] Dispatcher:60 : 接收长度: 610427747
+10:58:04.756 189.0.1.65 WARN  [taskExecutor-3] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+10:58:12.836  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60598
+10:58:15.837 189.0.1.65 WARN  [taskExecutor-4] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+10:58:15.847  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60600
+10:58:18.848 189.0.1.65 WARN  [taskExecutor-5] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+10:58:18.856  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60601
+10:58:21.857 189.0.1.65 WARN  [taskExecutor-1] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+10:58:21.867  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60602
+10:58:40.323  INFO  [main] PosServer:14 : 武商停车场服务(18.07.18.1)
+10:58:40.327  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+10:58:40.327  INFO  [main] RtUtils:18 : 虚拟机版本:24.80-b11
+10:58:40.327  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+10:58:40.327  INFO  [main] RtUtils:20 : 系统版本:1.7.0_80
+10:58:40.328  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+10:58:40.328  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+10:58:40.335  INFO  [main] Context:16 : Initializing Spring context.
+10:58:40.615  INFO  [main] Context:18 : Spring context initialized.
+10:58:40.616  INFO  [Thread-1] Listener:65 : listen: 189.0.1.65:5102
+10:58:44.788  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60607
+10:58:48.151 189.0.1.65 DEBUG [taskExecutor-1] Dispatcher:60 : 接收长度: 1667436544
+10:58:48.726 189.0.1.65 WARN  [taskExecutor-1] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+10:58:59.701  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60609
+10:59:01.050 189.0.1.65 DEBUG [taskExecutor-2] Dispatcher:60 : 接收长度: 808529968
+10:59:03.187 189.0.1.65 WARN  [taskExecutor-2] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+10:59:33.984  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60616
+10:59:34.879 189.0.1.65 DEBUG [taskExecutor-3] Dispatcher:60 : 接收长度: 1667446065
+10:59:35.443 189.0.1.65 WARN  [taskExecutor-3] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+10:59:49.656  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60619
+10:59:50.182 189.0.1.65 DEBUG [taskExecutor-4] Dispatcher:60 : 接收长度: 808464432
+10:59:50.628 189.0.1.65 WARN  [taskExecutor-4] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+10:59:56.492  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60621
+10:59:56.997 189.0.1.65 DEBUG [taskExecutor-5] Dispatcher:60 : 接收长度: 825241648
+10:59:57.503 189.0.1.65 WARN  [taskExecutor-5] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:00:09.964  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60627
+11:00:10.422 189.0.1.65 DEBUG [taskExecutor-1] Dispatcher:60 : 接收长度: 1650680624
+11:00:11.044 189.0.1.65 WARN  [taskExecutor-1] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:00:23.062  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60630
+11:00:28.064 189.0.1.65 WARN  [taskExecutor-2] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:00:28.072  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60632
+11:00:33.074 189.0.1.65 WARN  [taskExecutor-3] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:00:33.081  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60634
+11:00:41.866 189.0.1.65 WARN  [taskExecutor-4] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:00:41.875  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60636
+11:00:46.134 189.0.1.65 DEBUG [taskExecutor-5] Dispatcher:60 : 接收长度: 610427747
+11:00:48.924 189.0.1.65 WARN  [taskExecutor-5] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:00:53.980  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60638
+11:01:02.215 189.0.1.65 DEBUG [taskExecutor-1] Dispatcher:60 : 接收长度: 1667432448
+11:01:02.972 189.0.1.65 WARN  [taskExecutor-1] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:04:43.870  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60724
+11:04:48.872 189.0.1.65 WARN  [taskExecutor-2] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:05:03.884  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60728
+11:05:11.297 189.0.1.65 WARN  [taskExecutor-3] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:05:19.593  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60731
+11:05:25.330 189.0.1.65 DEBUG [taskExecutor-4] Dispatcher:60 : 接收长度: 1650680576
+11:05:27.321 189.0.1.65 WARN  [taskExecutor-4] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:05:57.792  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60751
+11:06:00.679 189.0.1.65 DEBUG [taskExecutor-5] Dispatcher:60 : 接收长度: 1650680577
+11:06:05.375 189.0.1.65 WARN  [taskExecutor-5] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:06:49.813  INFO  [main] PosServer:14 : 武商停车场服务(18.07.18.1)
+11:06:49.818  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+11:06:49.818  INFO  [main] RtUtils:18 : 虚拟机版本:24.80-b11
+11:06:49.818  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+11:06:49.818  INFO  [main] RtUtils:20 : 系统版本:1.7.0_80
+11:06:49.818  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+11:06:49.818  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+11:06:49.826  INFO  [main] Context:16 : Initializing Spring context.
+11:06:50.115  INFO  [main] Context:18 : Spring context initialized.
+11:06:50.116  INFO  [Thread-1] Listener:65 : listen: 189.0.1.65:5102
+11:06:59.956  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60760
+11:07:04.906 189.0.1.65 DEBUG [taskExecutor-1] Dispatcher:60 : 接收长度: 1650680576
+11:07:04.909 189.0.1.65 WARN  [taskExecutor-1] Dispatcher:40 : 
+java.lang.ArrayIndexOutOfBoundsException
+	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:07:04.923  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60762
+11:07:05.372 189.0.1.65 WARN  [taskExecutor-2] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:07:26.533  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60765
+11:07:38.641 189.0.1.65 DEBUG [taskExecutor-3] Dispatcher:60 : 接收长度: 1660956720
+11:07:38.641 189.0.1.65 WARN  [taskExecutor-3] Dispatcher:40 : 
+java.lang.ArrayIndexOutOfBoundsException
+	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:07:38.647  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60768
+11:07:39.132 189.0.1.65 WARN  [taskExecutor-4] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:07:54.178  INFO  [main] PosServer:14 : 武商停车场服务(18.07.18.1)
+11:07:54.183  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+11:07:54.183  INFO  [main] RtUtils:18 : 虚拟机版本:24.80-b11
+11:07:54.183  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+11:07:54.183  INFO  [main] RtUtils:20 : 系统版本:1.7.0_80
+11:07:54.184  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+11:07:54.184  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+11:07:54.191  INFO  [main] Context:16 : Initializing Spring context.
+11:07:54.475  INFO  [main] Context:18 : Spring context initialized.
+11:07:54.476  INFO  [Thread-1] Listener:65 : listen: 189.0.1.65:5102
+11:08:06.977  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60774
+11:08:12.497 189.0.1.65 WARN  [taskExecutor-1] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:08:12.508  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60775
+11:08:14.363 189.0.1.65 WARN  [taskExecutor-2] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:08:16.357  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60777
+11:08:20.477 189.0.1.65 DEBUG [taskExecutor-3] Dispatcher:60 : 接收长度: 1650680576
+11:08:20.478 189.0.1.65 WARN  [taskExecutor-3] Dispatcher:40 : 
+java.lang.ArrayIndexOutOfBoundsException
+	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:08:20.485  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60778
+11:08:20.936 189.0.1.65 WARN  [taskExecutor-4] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:10:20.317  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60815
+11:10:25.319 189.0.1.65 WARN  [taskExecutor-5] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:10:25.329  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60818
+11:10:32.246 189.0.1.65 WARN  [taskExecutor-1] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:10:32.260  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60820
+11:10:32.559 189.0.1.65 DEBUG [taskExecutor-2] Dispatcher:60 : 接收长度: 610427747
+11:10:32.560 189.0.1.65 WARN  [taskExecutor-2] Dispatcher:40 : 
+java.lang.ArrayIndexOutOfBoundsException
+	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:10:32.573  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60821
+11:10:37.577 189.0.1.65 WARN  [taskExecutor-3] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:10:37.586  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60823
+11:10:41.302 189.0.1.65 DEBUG [taskExecutor-4] Dispatcher:60 : 接收长度: 1650680576
+11:10:41.303 189.0.1.65 WARN  [taskExecutor-4] Dispatcher:40 : 
+java.lang.ArrayIndexOutOfBoundsException
+	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:10:41.307  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60825
+11:10:41.900 189.0.1.65 WARN  [taskExecutor-5] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:11:01.415  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60828
+11:11:08.024 189.0.1.65 WARN  [taskExecutor-1] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(SocketInputStream.java:152)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:11:08.032  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60830
+11:11:09.662 189.0.1.65 WARN  [taskExecutor-2] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:11:13.780  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60832
+11:11:17.730 189.0.1.65 DEBUG [taskExecutor-3] Dispatcher:60 : 接收长度: 1667432448
+11:11:17.732 189.0.1.65 WARN  [taskExecutor-3] Dispatcher:40 : 
+java.lang.ArrayIndexOutOfBoundsException
+	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:11:17.738  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60858
+11:11:18.173 189.0.1.65 WARN  [taskExecutor-4] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:11:49.383  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60881
+11:11:55.497 189.0.1.65 DEBUG [taskExecutor-5] Dispatcher:60 : 接收长度: 1667432448
+11:11:55.497 189.0.1.65 WARN  [taskExecutor-5] Dispatcher:40 : 
+java.lang.ArrayIndexOutOfBoundsException
+	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:11:55.506  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60883
+11:11:55.968 189.0.1.65 WARN  [taskExecutor-1] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:14:53.950  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60924
+11:14:53.951 189.0.1.65 DEBUG [taskExecutor-2] Dispatcher:60 : 接收长度: 13
+11:14:53.952 189.0.1.65 DEBUG [taskExecutor-2] Dispatcher:29 : request: ccb$鄂A8XK69  
+11:14:54.026 189.0.1.65 DEBUG [taskExecutor-2] CCBClient:90 : 车牌查询参数：MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69  &TXCODE=WGZF01
+11:14:55.088 189.0.1.65 DEBUG [taskExecutor-2] CCBClient:95 : 车牌查询URL：https://ibsbjstar.ccb.com.cn/CCBIS/B2CMainPlat_00_ENPAY?MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69  &TXCODE=WGZF01&ccbParam=AHVuOuSJiCf3Y3qDLr5Qv1XhUAdLl3eOmkLHwNIbf59L46VSG%2FNQT%2CUj4ALWxMdKjyNX%2F0ETLe3j%0D%0AJcINArvpufyJrQS3MjIDo8BqSTWA0wNfs7z5gyjK%2FgOm6mosOdG0fTsytXsJFpjufQPNjoPa%2C2qf%0D%0AQ6eyGP0ryJLH4aB8KcBa9KnheaGRtA030b8Ek46qfJiAtKyu%2CeWJ%2FDK%2FomcTI7EIx%2CeVw%2Fw6cnx0%0D%0Amtp%2CnAQJoT143ULXlgqDxgY%2C%2FPlDFNQ4WlgSRo0TIxVRUNHySA%3D%3D
+11:14:55.782 189.0.1.65 DEBUG [taskExecutor-2] Dispatcher:36 : response: 鄂A8XK69  :0:0
+11:15:05.470  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60928
+11:15:05.472 189.0.1.65 DEBUG [taskExecutor-3] Dispatcher:60 : 接收长度: 17
+11:15:05.473 189.0.1.65 WARN  [taskExecutor-3] Dispatcher:40 : 
+java.lang.ArrayIndexOutOfBoundsException
+	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:15:09.999  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60929
+11:15:10.000 189.0.1.65 DEBUG [taskExecutor-4] Dispatcher:60 : 接收长度: 17
+11:15:10.000 189.0.1.65 WARN  [taskExecutor-4] Dispatcher:40 : 
+java.lang.ArrayIndexOutOfBoundsException
+	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:15:23.447  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60931
+11:15:23.448 189.0.1.65 DEBUG [taskExecutor-5] Dispatcher:60 : 接收长度: 13
+11:15:23.449 189.0.1.65 DEBUG [taskExecutor-5] Dispatcher:29 : request: ccb$鄂A8XK69  
+11:15:23.449 189.0.1.65 DEBUG [taskExecutor-5] CCBClient:90 : 车牌查询参数：MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69  &TXCODE=WGZF01
+11:15:23.452 189.0.1.65 DEBUG [taskExecutor-5] CCBClient:95 : 车牌查询URL：https://ibsbjstar.ccb.com.cn/CCBIS/B2CMainPlat_00_ENPAY?MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69  &TXCODE=WGZF01&ccbParam=AHVuOuSJiCf3Y3qDLr5Qv1XhUAdLl3eOmkLHwNIbf59L46VSG%2FNQT%2CUj4ALWxMdKjyNX%2F0ETLe3j%0D%0AJcINArvpufyJrQS3MjIDo8BqSTWA0wNfs7z5gyjK%2FgOm6mosOdG0fTsytXsJFpjufQPNjoPa%2C2qf%0D%0AQ6eyGP0ryJLH4aB8KcBa9KnheaGRtA030b8Ek46qfJiAtKyu%2CeWJ%2FDK%2FomcTI7EIx%2CeVw%2Fw6cnx0%0D%0Amtp%2CnAQJoT143ULXlgqDxgY%2C%2FPlDFNQ4WlgSRo0TIxVRUNHySA%3D%3D
+11:15:23.464 189.0.1.65 DEBUG [taskExecutor-5] Dispatcher:36 : response: 鄂A8XK69  :0:0
+11:15:27.277  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60933
+11:15:27.278 189.0.1.65 DEBUG [taskExecutor-1] Dispatcher:60 : 接收长度: 13
+11:15:27.279 189.0.1.65 DEBUG [taskExecutor-1] Dispatcher:29 : request: ccb$鄂A8XK69  
+11:15:27.280 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:90 : 车牌查询参数：MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69  &TXCODE=WGZF01
+11:15:27.282 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:95 : 车牌查询URL：https://ibsbjstar.ccb.com.cn/CCBIS/B2CMainPlat_00_ENPAY?MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69  &TXCODE=WGZF01&ccbParam=AHVuOuSJiCf3Y3qDLr5Qv1XhUAdLl3eOmkLHwNIbf59L46VSG%2FNQT%2CUj4ALWxMdKjyNX%2F0ETLe3j%0D%0AJcINArvpufyJrQS3MjIDo8BqSTWA0wNfs7z5gyjK%2FgOm6mosOdG0fTsytXsJFpjufQPNjoPa%2C2qf%0D%0AQ6eyGP0ryJLH4aB8KcBa9KnheaGRtA030b8Ek46qfJiAtKyu%2CeWJ%2FDK%2FomcTI7EIx%2CeVw%2Fw6cnx0%0D%0Amtp%2CnAQJoT143ULXlgqDxgY%2C%2FPlDFNQ4WlgSRo0TIxVRUNHySA%3D%3D
+11:15:27.294 189.0.1.65 DEBUG [taskExecutor-1] Dispatcher:36 : response: 鄂A8XK69  :0:0
+11:16:44.444  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60948
+11:16:44.554 189.0.1.65 DEBUG [taskExecutor-2] Dispatcher:60 : 接收长度: 17
+11:16:44.554 189.0.1.65 WARN  [taskExecutor-2] Dispatcher:40 : 
+java.lang.ArrayIndexOutOfBoundsException
+	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:16:57.397  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60954
+11:16:57.399 189.0.1.65 DEBUG [taskExecutor-3] Dispatcher:60 : 接收长度: 13
+11:16:57.400 189.0.1.65 DEBUG [taskExecutor-3] Dispatcher:29 : request: ccb$鄂A8XK69  
+11:16:57.401 189.0.1.65 DEBUG [taskExecutor-3] CCBClient:90 : 车牌查询参数：MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69  &TXCODE=WGZF01
+11:16:57.403 189.0.1.65 DEBUG [taskExecutor-3] CCBClient:95 : 车牌查询URL：https://ibsbjstar.ccb.com.cn/CCBIS/B2CMainPlat_00_ENPAY?MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69  &TXCODE=WGZF01&ccbParam=AHVuOuSJiCf3Y3qDLr5Qv1XhUAdLl3eOmkLHwNIbf59L46VSG%2FNQT%2CUj4ALWxMdKjyNX%2F0ETLe3j%0D%0AJcINArvpufyJrQS3MjIDo8BqSTWA0wNfs7z5gyjK%2FgOm6mosOdG0fTsytXsJFpjufQPNjoPa%2C2qf%0D%0AQ6eyGP0ryJLH4aB8KcBa9KnheaGRtA030b8Ek46qfJiAtKyu%2CeWJ%2FDK%2FomcTI7EIx%2CeVw%2Fw6cnx0%0D%0Amtp%2CnAQJoT143ULXlgqDxgY%2C%2FPlDFNQ4WlgSRo0TIxVRUNHySA%3D%3D
+11:16:57.417 189.0.1.65 DEBUG [taskExecutor-3] Dispatcher:36 : response: 鄂A8XK69  :0:0
+11:18:44.158  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60971
+11:18:44.159 189.0.1.65 DEBUG [taskExecutor-4] Dispatcher:60 : 接收长度: 13
+11:18:44.160 189.0.1.65 DEBUG [taskExecutor-4] Dispatcher:29 : request: ccb$鄂A8XK69  
+11:18:44.161 189.0.1.65 DEBUG [taskExecutor-4] CCBClient:90 : 车牌查询参数：MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69  &TXCODE=WGZF01
+11:18:44.163 189.0.1.65 DEBUG [taskExecutor-4] CCBClient:95 : 车牌查询URL：https://ibsbjstar.ccb.com.cn/CCBIS/B2CMainPlat_00_ENPAY?MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69  &TXCODE=WGZF01&ccbParam=AHVuOuSJiCf3Y3qDLr5Qv1XhUAdLl3eOmkLHwNIbf59L46VSG%2FNQT%2CUj4ALWxMdKjyNX%2F0ETLe3j%0D%0AJcINArvpufyJrQS3MjIDo8BqSTWA0wNfs7z5gyjK%2FgOm6mosOdG0fTsytXsJFpjufQPNjoPa%2C2qf%0D%0AQ6eyGP0ryJLH4aB8KcBa9KnheaGRtA030b8Ek46qfJiAtKyu%2CeWJ%2FDK%2FomcTI7EIx%2CeVw%2Fw6cnx0%0D%0Amtp%2CnAQJoT143ULXlgqDxgY%2C%2FPlDFNQ4WlgSRo0TIxVRUNHySA%3D%3D
+11:18:44.179 189.0.1.65 DEBUG [taskExecutor-4] Dispatcher:36 : response: 鄂A8XK69  :0:0
+11:18:52.444  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60974
+11:18:52.445 189.0.1.65 DEBUG [taskExecutor-5] Dispatcher:60 : 接收长度: 13
+11:18:52.445 189.0.1.65 DEBUG [taskExecutor-5] Dispatcher:29 : request: ccb$鄂A8XK69  
+11:18:52.446 189.0.1.65 DEBUG [taskExecutor-5] CCBClient:90 : 车牌查询参数：MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69  &TXCODE=WGZF01
+11:18:52.447 189.0.1.65 DEBUG [taskExecutor-5] CCBClient:95 : 车牌查询URL：https://ibsbjstar.ccb.com.cn/CCBIS/B2CMainPlat_00_ENPAY?MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69  &TXCODE=WGZF01&ccbParam=AHVuOuSJiCf3Y3qDLr5Qv1XhUAdLl3eOmkLHwNIbf59L46VSG%2FNQT%2CUj4ALWxMdKjyNX%2F0ETLe3j%0D%0AJcINArvpufyJrQS3MjIDo8BqSTWA0wNfs7z5gyjK%2FgOm6mosOdG0fTsytXsJFpjufQPNjoPa%2C2qf%0D%0AQ6eyGP0ryJLH4aB8KcBa9KnheaGRtA030b8Ek46qfJiAtKyu%2CeWJ%2FDK%2FomcTI7EIx%2CeVw%2Fw6cnx0%0D%0Amtp%2CnAQJoT143ULXlgqDxgY%2C%2FPlDFNQ4WlgSRo0TIxVRUNHySA%3D%3D
+11:18:52.452 189.0.1.65 DEBUG [taskExecutor-5] Dispatcher:36 : response: 鄂A8XK69  :0:0
+11:19:09.799  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60978
+11:19:09.801 189.0.1.65 DEBUG [taskExecutor-1] Dispatcher:60 : 接收长度: 14
+11:19:09.802 189.0.1.65 DEBUG [taskExecutor-1] Dispatcher:29 : request: ccb$鄂A8XK69: 
+11:19:09.803 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:90 : 车牌查询参数：MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69&TXCODE=WGZF01
+11:19:09.806 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:95 : 车牌查询URL：https://ibsbjstar.ccb.com.cn/CCBIS/B2CMainPlat_00_ENPAY?MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69&TXCODE=WGZF01&ccbParam=AHVuOuSJiCf3Y3qDLr5Qv1XhUAdLl3eOmkLHwNIbf59L46VSG%2FNQT%2CUj4ALWxMdKjyNX%2F0ETLe3j%0D%0AJcINArvpufyJrQS3MjIDo8BqSTWA0wNfs7z5gyjK%2FgOm6mosOdG0fTsytXsJFpjufQPNjoPa%2C2qf%0D%0AQ6eyGP0ryJLH4aB8KcBa9KnheaGRtA030b8Ek46qfJiAtKyu%2CeWJ%2FDK%2FomcTI7EIx%2CeVw%2Fw6nlGt%0D%0AMLcEepfeE0ACZ3xyotnoVC%2CVOCBV%2CVlXWKw9x02Vf4jWqg2GCQ%3D%3D
+11:19:10.652 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:105 : 车牌查询返回：{"AUTHNO":"鄂A8XK69",
+"AUTHSTATUS":"1",
+"TRACEID":"1010117781548213510256350",
+"ERRORCODE":"",
+"ERRORMSG":"",
+"SIGN":"89206008b87865b6e5f7b8e57735e2e8619c7cdbb92fd764515408c70d34fb8c688e874293bc24a894576ddb59e73ef3f7b0d54acaa3aaaf70324434e4e5feac5b4cdfd4f2de349b0749ab4ab47375f6ccbc688adc6fb4796b7ce72ca25abf208e191b3123cda5ee2c7625b7aa874f32a09cae554616301eac0ecdbebf691964"}
+11:19:10.664 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:112 : 无感支付开始
+11:19:10.664 189.0.1.65 DEBUG [taskExecutor-1] Dispatcher:36 : response: 鄂A8XK69:0:0
+11:19:25.565  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60986
+11:19:25.566 189.0.1.65 DEBUG [taskExecutor-2] Dispatcher:60 : 接收长度: 14
+11:19:25.566 189.0.1.65 DEBUG [taskExecutor-2] Dispatcher:29 : request: ccb$鄂A8XK69: 
+11:19:25.567 189.0.1.65 DEBUG [taskExecutor-2] CCBClient:90 : 车牌查询参数：MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69&TXCODE=WGZF01
+11:19:25.567 189.0.1.65 DEBUG [taskExecutor-2] CCBClient:95 : 车牌查询URL：https://ibsbjstar.ccb.com.cn/CCBIS/B2CMainPlat_00_ENPAY?MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69&TXCODE=WGZF01&ccbParam=AHVuOuSJiCf3Y3qDLr5Qv1XhUAdLl3eOmkLHwNIbf59L46VSG%2FNQT%2CUj4ALWxMdKjyNX%2F0ETLe3j%0D%0AJcINArvpufyJrQS3MjIDo8BqSTWA0wNfs7z5gyjK%2FgOm6mosOdG0fTsytXsJFpjufQPNjoPa%2C2qf%0D%0AQ6eyGP0ryJLH4aB8KcBa9KnheaGRtA030b8Ek46qfJiAtKyu%2CeWJ%2FDK%2FomcTI7EIx%2CeVw%2Fw6nlGt%0D%0AMLcEepfeE0ACZ3xyotnoVC%2CVOCBV%2CVlXWKw9x02Vf4jWqg2GCQ%3D%3D
+11:19:25.917 189.0.1.65 DEBUG [taskExecutor-2] CCBClient:105 : 车牌查询返回：{"AUTHNO":"鄂A8XK69",
+"AUTHSTATUS":"1",
+"TRACEID":"1010116221548213525013036",
+"ERRORCODE":"",
+"ERRORMSG":"",
+"SIGN":"2e2ef8dbb6b5e0d12f3147360044c6b3049082b87eb4a17ab47a0331e8a42413a2496a1e643c9a2de7c8dc45bdce7105551775d414b9ca680a75961b3546f024063ab1c6d45f5963c04d3fbed0f0c300f2a3469dddc069ef7df756299bcb9352d2e4f5c4fc58496d66f2134268f07f307cfadb6499c60ec930ff738dda9db6a0"}
+11:19:25.918 189.0.1.65 DEBUG [taskExecutor-2] CCBClient:112 : 无感支付开始
+11:19:25.918 189.0.1.65 DEBUG [taskExecutor-2] Dispatcher:36 : response: 鄂A8XK69:0:0
+11:20:03.985  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60997
+11:20:03.986 189.0.1.65 DEBUG [taskExecutor-3] Dispatcher:60 : 接收长度: 17
+11:20:03.986 189.0.1.65 WARN  [taskExecutor-3] Dispatcher:40 : 
+java.lang.ArrayIndexOutOfBoundsException
+	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:20:11.077  DEBUG [Thread-1] Listener:72 : /189.0.1.65:60999
+11:20:11.077 189.0.1.65 DEBUG [taskExecutor-4] Dispatcher:60 : 接收长度: 17
+11:20:11.078 189.0.1.65 WARN  [taskExecutor-4] Dispatcher:40 : 
+java.lang.ArrayIndexOutOfBoundsException
+	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:20:14.967  DEBUG [Thread-1] Listener:72 : /189.0.1.65:61000
+11:20:14.968 189.0.1.65 DEBUG [taskExecutor-5] Dispatcher:60 : 接收长度: 17
+11:20:14.968 189.0.1.65 WARN  [taskExecutor-5] Dispatcher:40 : 
+java.lang.ArrayIndexOutOfBoundsException
+	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:20:26.690  DEBUG [Thread-1] Listener:72 : /189.0.1.65:61003
+11:20:26.691 189.0.1.65 DEBUG [taskExecutor-1] Dispatcher:60 : 接收长度: 15
+11:20:26.693 189.0.1.65 DEBUG [taskExecutor-1] Dispatcher:29 : request: ccb$鄂A8XK69:0
+11:20:26.695 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:90 : 车牌查询参数：MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69&TXCODE=WGZF01
+11:20:26.699 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:95 : 车牌查询URL：https://ibsbjstar.ccb.com.cn/CCBIS/B2CMainPlat_00_ENPAY?MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69&TXCODE=WGZF01&ccbParam=AHVuOuSJiCf3Y3qDLr5Qv1XhUAdLl3eOmkLHwNIbf59L46VSG%2FNQT%2CUj4ALWxMdKjyNX%2F0ETLe3j%0D%0AJcINArvpufyJrQS3MjIDo8BqSTWA0wNfs7z5gyjK%2FgOm6mosOdG0fTsytXsJFpjufQPNjoPa%2C2qf%0D%0AQ6eyGP0ryJLH4aB8KcBa9KnheaGRtA030b8Ek46qfJiAtKyu%2CeWJ%2FDK%2FomcTI7EIx%2CeVw%2Fw6nlGt%0D%0AMLcEepfeE0ACZ3xyotnoVC%2CVOCBV%2CVlXWKw9x02Vf4jWqg2GCQ%3D%3D
+11:20:27.062 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:105 : 车牌查询返回：{"AUTHNO":"鄂A8XK69",
+"AUTHSTATUS":"1",
+"TRACEID":"1010116401548213587963093",
+"ERRORCODE":"",
+"ERRORMSG":"",
+"SIGN":"2c0fcab36f5625bdd26860c152b71ead658b3a17c2d71c5f644dc8c5b9f8e95a0141fb5f94488f48f59f53ffc4e703de8a47a5f736de1f2cb234bb3a0c66d696941b925d2488d38322fa572c3081e610ef4d0e8feeceb1784566d01dfad179266bfe974cf86183aa05d9707b07950215c8afefc28b4518fd7644ac3ff8933056"}
+11:20:27.063 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:112 : 无感支付开始
+11:20:27.064 189.0.1.65 DEBUG [taskExecutor-1] Dispatcher:36 : response: 鄂A8XK69:0:0
+11:20:42.836  DEBUG [Thread-1] Listener:72 : /189.0.1.65:61007
+11:20:42.837 189.0.1.65 DEBUG [taskExecutor-2] Dispatcher:60 : 接收长度: 15
+11:20:42.838 189.0.1.65 DEBUG [taskExecutor-2] Dispatcher:29 : request: ccb$鄂A8XK69:0
+11:20:42.838 189.0.1.65 DEBUG [taskExecutor-2] CCBClient:90 : 车牌查询参数：MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69&TXCODE=WGZF01
+11:20:42.839 189.0.1.65 DEBUG [taskExecutor-2] CCBClient:95 : 车牌查询URL：https://ibsbjstar.ccb.com.cn/CCBIS/B2CMainPlat_00_ENPAY?MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69&TXCODE=WGZF01&ccbParam=AHVuOuSJiCf3Y3qDLr5Qv1XhUAdLl3eOmkLHwNIbf59L46VSG%2FNQT%2CUj4ALWxMdKjyNX%2F0ETLe3j%0D%0AJcINArvpufyJrQS3MjIDo8BqSTWA0wNfs7z5gyjK%2FgOm6mosOdG0fTsytXsJFpjufQPNjoPa%2C2qf%0D%0AQ6eyGP0ryJLH4aB8KcBa9KnheaGRtA030b8Ek46qfJiAtKyu%2CeWJ%2FDK%2FomcTI7EIx%2CeVw%2Fw6nlGt%0D%0AMLcEepfeE0ACZ3xyotnoVC%2CVOCBV%2CVlXWKw9x02Vf4jWqg2GCQ%3D%3D
+11:20:43.205 189.0.1.65 DEBUG [taskExecutor-2] CCBClient:105 : 车牌查询返回：{"AUTHNO":"鄂A8XK69",
+"AUTHSTATUS":"1",
+"TRACEID":"1010116801548213603753144",
+"ERRORCODE":"",
+"ERRORMSG":"",
+"SIGN":"b7bd80c310441d4cc4d2e911dcd0b957e31156c30c0986fa01330a7454e6137777c76a90c456d1523784fbbe9cb2d1a55464fd1f055cc8434ccdb1f4b3371c9810fa9c894e12e2e9cf3fedebe6b33f06cfe71b565f95e3268b177567f574ab560cb77a4ffc274825d7a7882e545fff2989b397600fbdee92d230c031e4c03b8c"}
+11:20:43.206 189.0.1.65 DEBUG [taskExecutor-2] CCBClient:112 : 无感支付开始
+11:20:43.206 189.0.1.65 DEBUG [taskExecutor-2] Dispatcher:36 : response: 鄂A8XK69:0:0
+11:20:54.136  DEBUG [Thread-1] Listener:72 : /189.0.1.65:61010
+11:20:54.139 189.0.1.65 DEBUG [taskExecutor-3] Dispatcher:60 : 接收长度: 17
+11:20:54.140 189.0.1.65 WARN  [taskExecutor-3] Dispatcher:40 : 
+java.lang.ArrayIndexOutOfBoundsException
+	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:20:58.517  DEBUG [Thread-1] Listener:72 : /189.0.1.65:61013
+11:20:58.518 189.0.1.65 DEBUG [taskExecutor-4] Dispatcher:60 : 接收长度: 17
+11:20:58.519 189.0.1.65 WARN  [taskExecutor-4] Dispatcher:40 : 
+java.lang.ArrayIndexOutOfBoundsException
+	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:21:09.470  DEBUG [Thread-1] Listener:72 : /189.0.1.65:61015
+11:21:09.471 189.0.1.65 DEBUG [taskExecutor-5] Dispatcher:60 : 接收长度: 15
+11:21:09.472 189.0.1.65 DEBUG [taskExecutor-5] Dispatcher:29 : request: ccb$鄂A8XK69:0
+11:21:09.472 189.0.1.65 DEBUG [taskExecutor-5] CCBClient:90 : 车牌查询参数：MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69&TXCODE=WGZF01
+11:21:09.474 189.0.1.65 DEBUG [taskExecutor-5] CCBClient:95 : 车牌查询URL：https://ibsbjstar.ccb.com.cn/CCBIS/B2CMainPlat_00_ENPAY?MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69&TXCODE=WGZF01&ccbParam=AHVuOuSJiCf3Y3qDLr5Qv1XhUAdLl3eOmkLHwNIbf59L46VSG%2FNQT%2CUj4ALWxMdKjyNX%2F0ETLe3j%0D%0AJcINArvpufyJrQS3MjIDo8BqSTWA0wNfs7z5gyjK%2FgOm6mosOdG0fTsytXsJFpjufQPNjoPa%2C2qf%0D%0AQ6eyGP0ryJLH4aB8KcBa9KnheaGRtA030b8Ek46qfJiAtKyu%2CeWJ%2FDK%2FomcTI7EIx%2CeVw%2Fw6nlGt%0D%0AMLcEepfeE0ACZ3xyotnoVC%2CVOCBV%2CVlXWKw9x02Vf4jWqg2GCQ%3D%3D
+11:21:09.836 189.0.1.65 DEBUG [taskExecutor-5] CCBClient:105 : 车牌查询返回：{"AUTHNO":"鄂A8XK69",
+"AUTHSTATUS":"1",
+"TRACEID":"1010116181548213629010727",
+"ERRORCODE":"",
+"ERRORMSG":"",
+"SIGN":"b04fa3529a026e474ed394146c1e4902ddc43005918f22f645a71edcc0861af1ceda51483db2b7b49a4f27955cdbd97566f876901581d8eef46ff2868741f052ad939841f2b14fd9b919a5d28091044cce574c9899987ec8f987f126743a76e552bd392fde21bd107554432fab4034b8edf5fa261b8f6060441d565d67e5e53f"}
+11:21:09.837 189.0.1.65 DEBUG [taskExecutor-5] CCBClient:112 : 无感支付开始
+11:21:09.837 189.0.1.65 DEBUG [taskExecutor-5] Dispatcher:36 : response: 鄂A8XK69:0:0
+11:21:11.989  DEBUG [Thread-1] Listener:72 : /189.0.1.65:61017
+11:21:11.990 189.0.1.65 DEBUG [taskExecutor-1] Dispatcher:60 : 接收长度: 15
+11:21:11.990 189.0.1.65 DEBUG [taskExecutor-1] Dispatcher:29 : request: ccb$鄂A8XK69:0
+11:21:11.990 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:90 : 车牌查询参数：MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69&TXCODE=WGZF01
+11:21:11.991 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:95 : 车牌查询URL：https://ibsbjstar.ccb.com.cn/CCBIS/B2CMainPlat_00_ENPAY?MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69&TXCODE=WGZF01&ccbParam=AHVuOuSJiCf3Y3qDLr5Qv1XhUAdLl3eOmkLHwNIbf59L46VSG%2FNQT%2CUj4ALWxMdKjyNX%2F0ETLe3j%0D%0AJcINArvpufyJrQS3MjIDo8BqSTWA0wNfs7z5gyjK%2FgOm6mosOdG0fTsytXsJFpjufQPNjoPa%2C2qf%0D%0AQ6eyGP0ryJLH4aB8KcBa9KnheaGRtA030b8Ek46qfJiAtKyu%2CeWJ%2FDK%2FomcTI7EIx%2CeVw%2Fw6nlGt%0D%0AMLcEepfeE0ACZ3xyotnoVC%2CVOCBV%2CVlXWKw9x02Vf4jWqg2GCQ%3D%3D
+11:21:12.343 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:105 : 车牌查询返回：{"AUTHNO":"鄂A8XK69",
+"AUTHSTATUS":"1",
+"TRACEID":"1010116081548213632888754",
+"ERRORCODE":"",
+"ERRORMSG":"",
+"SIGN":"0893f7f2b78f74ceda36eb322349d49baa5cc9b0d04b822ffb4c6b790c5f52462936f69653d18ec25b89d2ac8a611d921241f27f96472a7f892c5c545c151d0a11f744ebc8f8f56d565c9272337fa2e9be3ea6e84679fe79036ee4bf88671e1efabd54fd25bce422a3e2e2e8e085bc7a30a641860d2c171ffbdd7595d9453a29"}
+11:21:12.343 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:112 : 无感支付开始
+11:21:12.344 189.0.1.65 DEBUG [taskExecutor-1] Dispatcher:36 : response: 鄂A8XK69:0:0
+11:22:00.725  DEBUG [Thread-1] Listener:72 : /189.0.1.65:61024
+11:22:00.726 189.0.1.65 DEBUG [taskExecutor-2] Dispatcher:60 : 接收长度: 19
+11:22:00.727 189.0.1.65 WARN  [taskExecutor-2] Dispatcher:40 : 
+java.lang.ArrayIndexOutOfBoundsException
+	at java.net.SocketInputStream.read(SocketInputStream.java:143)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+11:22:32.952  INFO  [main] PosServer:14 : 武商停车场服务(18.07.18.1)
+11:22:32.956  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+11:22:32.956  INFO  [main] RtUtils:18 : 虚拟机版本:24.80-b11
+11:22:32.956  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+11:22:32.957  INFO  [main] RtUtils:20 : 系统版本:1.7.0_80
+11:22:32.957  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+11:22:32.957  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+11:22:32.965  INFO  [main] Context:16 : Initializing Spring context.
+11:22:33.249  INFO  [main] Context:18 : Spring context initialized.
+11:22:33.250  INFO  [Thread-1] Listener:65 : listen: 189.0.1.65:5102
+11:22:37.749  DEBUG [Thread-1] Listener:72 : /189.0.1.65:61033
+11:22:37.755 189.0.1.65 DEBUG [taskExecutor-1] Dispatcher:60 : 接收长度: 19
+11:22:37.756 189.0.1.65 DEBUG [taskExecutor-1] Dispatcher:29 : request: ccb$鄂A8XK69:123:0
+11:22:37.798 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:90 : 车牌查询参数：MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69&TXCODE=WGZF01
+11:22:38.120 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:95 : 车牌查询URL：https://ibsbjstar.ccb.com.cn/CCBIS/B2CMainPlat_00_ENPAY?MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69&TXCODE=WGZF01&ccbParam=AHVuOuSJiCf3Y3qDLr5Qv1XhUAdLl3eOmkLHwNIbf59L46VSG%2FNQT%2CUj4ALWxMdKjyNX%2F0ETLe3j%0D%0AJcINArvpufyJrQS3MjIDo8BqSTWA0wNfs7z5gyjK%2FgOm6mosOdG0fTsytXsJFpjufQPNjoPa%2C2qf%0D%0AQ6eyGP0ryJLH4aB8KcBa9KnheaGRtA030b8Ek46qfJiAtKyu%2CeWJ%2FDK%2FomcTI7EIx%2CeVw%2Fw6nlGt%0D%0AMLcEepfeE0ACZ3xyotnoVC%2CVOCBV%2CVlXWKw9x02Vf4jWqg2GCQ%3D%3D
+11:22:39.131 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:105 : 车牌查询返回：{"AUTHNO":"鄂A8XK69",
+"AUTHSTATUS":"1",
+"TRACEID":"1010116741548213719175181",
+"ERRORCODE":"",
+"ERRORMSG":"",
+"SIGN":"948459c92ce832718fa7af02aa39f771f1b2397253b8345e5e80964e55777b74f6fa4c2f314788569cfb66a603beca1e3992bbb0faddd35b80489518f20855d40e53c8d799d4cf62cb7f9be38618df3a5c45e173556a54ac59e876caef0db27ead71b107297bb0b0309a6f634eed9c6182dc8701367d667b4c57b8456bc47544"}
+11:22:39.140 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:112 : 无感支付开始
+11:22:39.140 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:125 : 无感支付参数：MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&ORDERID=123&AUTHNO=鄂A8XK69&AMOUNT=0&TXCODE=WGZF00
+11:22:39.141 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:128 : 无感支付URL：https://ibsbjstar.ccb.com.cn/CCBIS/B2CMainPlat_00_ENPAY?MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&ORDERID=123&AUTHNO=鄂A8XK69&AMOUNT=0&TXCODE=WGZF00&ccbParam=AHVuOuSJiCf3Y3qDLr5Qv1XhUAdLl3eOmkLHwNIbf59L46VSG%2FNQT%2CUj4ALWxMdKjyNX%2F0ETLe3j%0D%0AJcINArvpufyJrQS3MjIDo8BqSTWA0wNfs7z5gyjK%2FgOm6mosOdG0fTsytXsJFpjufQPNjoPa%2C2qf%0D%0AQ6eyGP0ryJLH4aB8KcBa9KnheaGRtA030b8Ek46qADQXVCps2BBd4KS9oXhoRjEkLU8950pRfJiA%0D%0AtKyu%2CeWJ%2FDK%2FomcTI7EIx%2CeVw%2Fw6nlGtMLcEepebrESo3vtFUuZgP4wPFns4br%2Cs%2CLoMfNsaoL4E%0D%0ARoOMuTG%2Fsu%2ClquMWjVTY2ryhm9E%3D
+11:22:39.194 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:135 : 无感支付返回：{"SUCCESS":"false","TXCODE":"WGZF00","SYS_EVT_TRACE_ID":"1010116741548213719175217","ERRORCODE":"0130Z1109001","ERRORMSG":"暂时未能处理您的请求，请稍后再试。如有疑问，请咨询在线客服或致电95533。金额不能小于0.01元"}
+11:22:39.196 189.0.1.65 DEBUG [taskExecutor-1] Dispatcher:36 : response: 鄂A8XK69:0:0
+11:23:00.853  DEBUG [Thread-1] Listener:72 : /189.0.1.65:61039
+11:23:00.854 189.0.1.65 DEBUG [taskExecutor-2] Dispatcher:60 : 接收长度: 19
+11:23:00.854 189.0.1.65 DEBUG [taskExecutor-2] Dispatcher:29 : request: ccb$鄂A8XK69:123:0
+11:23:00.855 189.0.1.65 DEBUG [taskExecutor-2] CCBClient:90 : 车牌查询参数：MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69&TXCODE=WGZF01
+11:23:00.856 189.0.1.65 DEBUG [taskExecutor-2] CCBClient:95 : 车牌查询URL：https://ibsbjstar.ccb.com.cn/CCBIS/B2CMainPlat_00_ENPAY?MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69&TXCODE=WGZF01&ccbParam=AHVuOuSJiCf3Y3qDLr5Qv1XhUAdLl3eOmkLHwNIbf59L46VSG%2FNQT%2CUj4ALWxMdKjyNX%2F0ETLe3j%0D%0AJcINArvpufyJrQS3MjIDo8BqSTWA0wNfs7z5gyjK%2FgOm6mosOdG0fTsytXsJFpjufQPNjoPa%2C2qf%0D%0AQ6eyGP0ryJLH4aB8KcBa9KnheaGRtA030b8Ek46qfJiAtKyu%2CeWJ%2FDK%2FomcTI7EIx%2CeVw%2Fw6nlGt%0D%0AMLcEepfeE0ACZ3xyotnoVC%2CVOCBV%2CVlXWKw9x02Vf4jWqg2GCQ%3D%3D
+11:23:01.200 189.0.1.65 DEBUG [taskExecutor-2] CCBClient:105 : 车牌查询返回：{"AUTHNO":"鄂A8XK69",
+"AUTHSTATUS":"1",
+"TRACEID":"1010116791548213741650978",
+"ERRORCODE":"",
+"ERRORMSG":"",
+"SIGN":"9904d78b063899388e95fbf7d739c7e6f2f5a956d9dda147bb84dce7b148530b4e0fcb4abceeb0b42c13dea5acb2fd287d5ba7323b70b8853ef3694a7783c35b46eaa90dbc7b388c3318a2d3df8b4a1b37e633fcc128f73d3a188e104ee43dc60a00d7f21ce535f83bc78611def04f3c45125274741f363663ffb94a0157f061"}
+11:23:01.202 189.0.1.65 DEBUG [taskExecutor-2] CCBClient:112 : 无感支付开始
+11:23:01.203 189.0.1.65 DEBUG [taskExecutor-2] CCBClient:125 : 无感支付参数：MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&ORDERID=123&AUTHNO=鄂A8XK69&AMOUNT=0&TXCODE=WGZF00
+11:23:01.207 189.0.1.65 DEBUG [taskExecutor-2] CCBClient:128 : 无感支付URL：https://ibsbjstar.ccb.com.cn/CCBIS/B2CMainPlat_00_ENPAY?MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&ORDERID=123&AUTHNO=鄂A8XK69&AMOUNT=0&TXCODE=WGZF00&ccbParam=AHVuOuSJiCf3Y3qDLr5Qv1XhUAdLl3eOmkLHwNIbf59L46VSG%2FNQT%2CUj4ALWxMdKjyNX%2F0ETLe3j%0D%0AJcINArvpufyJrQS3MjIDo8BqSTWA0wNfs7z5gyjK%2FgOm6mosOdG0fTsytXsJFpjufQPNjoPa%2C2qf%0D%0AQ6eyGP0ryJLH4aB8KcBa9KnheaGRtA030b8Ek46qADQXVCps2BBd4KS9oXhoRjEkLU8950pRfJiA%0D%0AtKyu%2CeWJ%2FDK%2FomcTI7EIx%2CeVw%2Fw6nlGtMLcEepebrESo3vtFUuZgP4wPFns4br%2Cs%2CLoMfNsaoL4E%0D%0ARoOMuTG%2Fsu%2ClquMWjVTY2ryhm9E%3D
+11:23:01.254 189.0.1.65 DEBUG [taskExecutor-2] CCBClient:135 : 无感支付返回：{"SUCCESS":"false","TXCODE":"WGZF00","SYS_EVT_TRACE_ID":"1010116791548213741651003","ERRORCODE":"0130Z1109001","ERRORMSG":"暂时未能处理您的请求，请稍后再试。如有疑问，请咨询在线客服或致电95533。金额不能小于0.01元"}
+11:23:01.254 189.0.1.65 DEBUG [taskExecutor-2] Dispatcher:36 : response: 鄂A8XK69:0:0
+11:26:00.787  INFO  [main] PosServer:14 : 武商停车场服务(18.07.18.1)
+11:26:00.791  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+11:26:00.791  INFO  [main] RtUtils:18 : 虚拟机版本:24.80-b11
+11:26:00.792  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+11:26:00.792  INFO  [main] RtUtils:20 : 系统版本:1.7.0_80
+11:26:00.792  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+11:26:00.792  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+11:26:00.800  INFO  [main] Context:16 : Initializing Spring context.
+11:26:01.089  INFO  [main] Context:18 : Spring context initialized.
+11:26:01.090  INFO  [Thread-1] Listener:65 : listen: 189.0.1.65:5102
+11:26:05.407  DEBUG [Thread-1] Listener:72 : /189.0.1.65:61093
+11:26:05.419 189.0.1.65 DEBUG [taskExecutor-1] Dispatcher:29 : request: ccb$鄂A8XK69:123:0
+11:26:05.472 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:90 : 车牌查询参数：MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69&TXCODE=WGZF01
+11:26:05.797 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:95 : 车牌查询URL：https://ibsbjstar.ccb.com.cn/CCBIS/B2CMainPlat_00_ENPAY?MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69&TXCODE=WGZF01&ccbParam=AHVuOuSJiCf3Y3qDLr5Qv1XhUAdLl3eOmkLHwNIbf59L46VSG%2FNQT%2CUj4ALWxMdKjyNX%2F0ETLe3j%0D%0AJcINArvpufyJrQS3MjIDo8BqSTWA0wNfs7z5gyjK%2FgOm6mosOdG0fTsytXsJFpjufQPNjoPa%2C2qf%0D%0AQ6eyGP0ryJLH4aB8KcBa9KnheaGRtA030b8Ek46qfJiAtKyu%2CeWJ%2FDK%2FomcTI7EIx%2CeVw%2Fw6nlGt%0D%0AMLcEepfeE0ACZ3xyotnoVC%2CVOCBV%2CVlXWKw9x02Vf4jWqg2GCQ%3D%3D
+11:26:06.817 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:105 : 车牌查询返回：{"AUTHNO":"鄂A8XK69",
+"AUTHSTATUS":"1",
+"TRACEID":"1010117871548213926885019",
+"ERRORCODE":"",
+"ERRORMSG":"",
+"SIGN":"9c3531a9852ef89b33284a4403354e6c6bf67f8aa24bedfef12e927ad271c4ec880aac5a8f3bf7ab5f81e13588d6ec809dc90715e5d183f85abe2c1cd8ef70be2a2a649020730f445c1a9241e53aeaab4684932496c6b338fdec7591dbc140d05ae9da0cc12c2c8f5ffbc54d71b67957e06eafb59ae43ffce37d13fdd2c3aaf7"}
+11:26:06.826 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:109 : 无感支付查询结果: 1
+11:26:06.826 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:113 : 无感支付开始
+11:26:06.826 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:126 : 无感支付参数：MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&ORDERID=123&AUTHNO=鄂A8XK69&AMOUNT=0&TXCODE=WGZF00
+11:26:06.827 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:129 : 无感支付URL：https://ibsbjstar.ccb.com.cn/CCBIS/B2CMainPlat_00_ENPAY?MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&ORDERID=123&AUTHNO=鄂A8XK69&AMOUNT=0&TXCODE=WGZF00&ccbParam=AHVuOuSJiCf3Y3qDLr5Qv1XhUAdLl3eOmkLHwNIbf59L46VSG%2FNQT%2CUj4ALWxMdKjyNX%2F0ETLe3j%0D%0AJcINArvpufyJrQS3MjIDo8BqSTWA0wNfs7z5gyjK%2FgOm6mosOdG0fTsytXsJFpjufQPNjoPa%2C2qf%0D%0AQ6eyGP0ryJLH4aB8KcBa9KnheaGRtA030b8Ek46qADQXVCps2BBd4KS9oXhoRjEkLU8950pRfJiA%0D%0AtKyu%2CeWJ%2FDK%2FomcTI7EIx%2CeVw%2Fw6nlGtMLcEepebrESo3vtFUuZgP4wPFns4br%2Cs%2CLoMfNsaoL4E%0D%0ARoOMuTG%2Fsu%2ClquMWjVTY2ryhm9E%3D
+11:26:06.871 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:136 : 无感支付返回：{"SUCCESS":"false","TXCODE":"WGZF00","SYS_EVT_TRACE_ID":"1010117871548213927885052","ERRORCODE":"0130Z1109001","ERRORMSG":"暂时未能处理您的请求，请稍后再试。如有疑问，请咨询在线客服或致电95533。金额不能小于0.01元"}
+11:26:06.872 189.0.1.65 DEBUG [taskExecutor-1] Dispatcher:36 : response: 鄂A8XK69:0:0
+11:28:14.129  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+11:28:14.133  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+11:28:14.133  INFO  [main] RtUtils:18 : 虚拟机版本:24.80-b11
+11:28:14.134  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+11:28:14.134  INFO  [main] RtUtils:20 : 系统版本:1.7.0_80
+11:28:14.134  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+11:28:14.134  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+11:28:14.142  INFO  [main] Context:16 : Initializing Spring context.
+11:28:14.430  INFO  [main] Context:18 : Spring context initialized.
+11:28:14.431  INFO  [Thread-1] Listener:65 : listen: 189.0.1.65:5102
+11:28:26.070  DEBUG [Thread-1] Listener:72 : /189.0.1.65:61119
+11:28:26.076 189.0.1.65 DEBUG [taskExecutor-1] Dispatcher:29 : request: ccb$鄂A8XK69:123:0.01
+11:28:26.133 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:90 : 车牌查询参数：MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69&TXCODE=WGZF01
+11:28:26.456 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:95 : 车牌查询URL：https://ibsbjstar.ccb.com.cn/CCBIS/B2CMainPlat_00_ENPAY?MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&AUTHNO=鄂A8XK69&TXCODE=WGZF01&ccbParam=AHVuOuSJiCf3Y3qDLr5Qv1XhUAdLl3eOmkLHwNIbf59L46VSG%2FNQT%2CUj4ALWxMdKjyNX%2F0ETLe3j%0D%0AJcINArvpufyJrQS3MjIDo8BqSTWA0wNfs7z5gyjK%2FgOm6mosOdG0fTsytXsJFpjufQPNjoPa%2C2qf%0D%0AQ6eyGP0ryJLH4aB8KcBa9KnheaGRtA030b8Ek46qfJiAtKyu%2CeWJ%2FDK%2FomcTI7EIx%2CeVw%2Fw6nlGt%0D%0AMLcEepfeE0ACZ3xyotnoVC%2CVOCBV%2CVlXWKw9x02Vf4jWqg2GCQ%3D%3D
+11:28:27.464 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:105 : 车牌查询返回：{"AUTHNO":"鄂A8XK69",
+"AUTHSTATUS":"1",
+"TRACEID":"1010117031548214067809716",
+"ERRORCODE":"",
+"ERRORMSG":"",
+"SIGN":"28c80f846b49db2ca0efbf4de264102e6b578a1cfcda7802bced2163834fd807be50533c7d4c15c4ae1076a053925b95e54c4afc202b4a8e2080e5aef506f021803bb3127fea63cbb57097f46789a3d8054b6963eff1a2bfb3050533893d3214f5f403956bcd3534aa60fae9d51446e5521f4ce8dc45cfb1fc3b5bd23b16e41a"}
+11:28:27.474 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:109 : 无感支付查询结果: 1
+11:28:27.474 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:113 : 无感支付开始
+11:28:27.474 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:126 : 无感支付参数：MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&ORDERID=123&AUTHNO=鄂A8XK69&AMOUNT=0.01&TXCODE=WGZF00
+11:28:27.475 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:129 : 无感支付URL：https://ibsbjstar.ccb.com.cn/CCBIS/B2CMainPlat_00_ENPAY?MERFLAG=1&MERCHANTID=105000065132590&POSID=023324591&BRANCHID=420000000&ORDERID=123&AUTHNO=鄂A8XK69&AMOUNT=0.01&TXCODE=WGZF00&ccbParam=AHVuOuSJiCf3Y3qDLr5Qv1XhUAdLl3eOmkLHwNIbf59L46VSG%2FNQT%2CUj4ALWxMdKjyNX%2F0ETLe3j%0D%0AJcINArvpufyJrQS3MjIDo8BqSTWA0wNfs7z5gyjK%2FgOm6mosOdG0fTsytXsJFpjufQPNjoPa%2C2qf%0D%0AQ6eyGP0ryJLH4aB8KcBa9KnheaGRtA030b8Ek46qADQXVCps2BBd4KS9oXhoRjEkLU8950pRfJiA%0D%0AtKyu%2CeWJ%2FDK%2FomcTI7EIx%2CeVw%2Fw6nlGtMLcEepebrESo3vtFUuZgP4wPFns4VrPTNoRGPFXeE0AC%0D%0AZ3xyotnoVC%2CVOCBV%2CVlXWKw9x01bb2uo2nGvVw%3D%3D
+11:28:28.363 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:136 : 无感支付返回：{"RESULT":"Y",
+"ORDERID":"123",
+"AMOUNT":"0.01",
+"TRACEID":"1010117031548214067809736",
+"ERRORCODE":"",
+"ERRORMSG":"",
+"SIGN":"226f87eb2ad9569128a0f2c7390564d12d004a6582529e9a875dcff729ccb3e588ac9f4838f2edaef15c3d6152567eafeb7f5df0b6e503f5e05ac4c8ad4f01d8881aa014e0aae0b180bd74c8c876b36c0d8e9929c69e3a45ff1c4b942bd277be79685a631ff61bfb3ff77f75983512f7cd2d80cb1a593458ed242c03b4a5ae2b"}
+11:28:28.365 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:142 : 无感支付成功：
+
+{"RESULT":"Y",
+"ORDERID":"123",
+"AMOUNT":"0.01",
+"TRACEID":"1010117031548214067809736",
+"ERRORCODE":"",
+"ERRORMSG":"",
+"SIGN":"226f87eb2ad9569128a0f2c7390564d12d004a6582529e9a875dcff729ccb3e588ac9f4838f2edaef15c3d6152567eafeb7f5df0b6e503f5e05ac4c8ad4f01d8881aa014e0aae0b180bd74c8c876b36c0d8e9929c69e3a45ff1c4b942bd277be79685a631ff61bfb3ff77f75983512f7cd2d80cb1a593458ed242c03b4a5ae2b"}
+
+
+
+
+
+
+11:28:28.366 189.0.1.65 DEBUG [taskExecutor-1] CCBClient:154 : 无感支付结束
+11:28:28.367 189.0.1.65 DEBUG [taskExecutor-1] Dispatcher:36 : response: 鄂A8XK69:1:1010117031548214067809736

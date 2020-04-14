@@ -1,0 +1,70 @@
+13:57:46.476  INFO  [main] PosServer:17 : æ­¦å•†åœè½¦åœºæœåŠ¡(19.01.23.1)
+13:57:46.526  INFO  [main] RtUtils:17 : è™šæ‹Ÿæœºåå­—:Java HotSpot(TM) 64-Bit Server VM
+13:57:46.526  INFO  [main] RtUtils:18 : è™šæ‹Ÿæœºç‰ˆæœ¬:25.202-b08
+13:57:46.526  INFO  [main] RtUtils:19 : è™šæ‹Ÿæœºå‚å•†:Oracle Corporation
+13:57:46.527  INFO  [main] RtUtils:20 : ç³»ç»Ÿç‰ˆæœ¬:1.8.0_202
+13:57:46.527  INFO  [main] RtUtils:21 : ç³»ç»Ÿå‚å•†:Oracle Corporation
+13:57:46.528  INFO  [main] RtUtils:22 : ç³»ç»Ÿæ—¶åŒº:Asia/Shanghai
+13:57:46.555  INFO  [main] Context:16 : Initializing Spring context.
+13:57:47.229  INFO  [main] Context:18 : Spring context initialized.
+13:57:47.229  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+19:28:52.928  INFO  [main] PosServer:17 : ÎäÉÌÍ£³µ³¡·şÎñ(19.01.23.1)
+19:28:52.932  INFO  [main] RtUtils:17 : ĞéÄâ»úÃû×Ö:Java HotSpot(TM) 64-Bit Server VM
+19:28:52.933  INFO  [main] RtUtils:18 : ĞéÄâ»ú°æ±¾:25.202-b08
+19:28:52.933  INFO  [main] RtUtils:19 : ĞéÄâ»ú³§ÉÌ:Oracle Corporation
+19:28:52.934  INFO  [main] RtUtils:20 : ÏµÍ³°æ±¾:1.8.0_202
+19:28:52.934  INFO  [main] RtUtils:21 : ÏµÍ³³§ÉÌ:Oracle Corporation
+19:28:52.934  INFO  [main] RtUtils:22 : ÏµÍ³Ê±Çø:Asia/Shanghai
+19:28:52.939  INFO  [main] Context:16 : Initializing Spring context.
+19:28:53.190  INFO  [main] Context:18 : Spring context initialized.
+19:28:53.191  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+19:28:53.197  WARN  [Thread-1] Listener:83 : 
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at cn.com.wushang.wspark.pos.server.implementor.Listener.run(Listener.java:67)
+	at java.lang.Thread.run(Unknown Source)
+19:29:32.764  INFO  [main] PosServer:17 : ÎäÉÌÍ£³µ³¡·şÎñ(19.01.23.1)
+19:29:32.767  INFO  [main] RtUtils:17 : ĞéÄâ»úÃû×Ö:Java HotSpot(TM) 64-Bit Server VM
+19:29:32.768  INFO  [main] RtUtils:18 : ĞéÄâ»ú°æ±¾:25.202-b08
+19:29:32.769  INFO  [main] RtUtils:19 : ĞéÄâ»ú³§ÉÌ:Oracle Corporation
+19:29:32.769  INFO  [main] RtUtils:20 : ÏµÍ³°æ±¾:1.8.0_202
+19:29:32.769  INFO  [main] RtUtils:21 : ÏµÍ³³§ÉÌ:Oracle Corporation
+19:29:32.769  INFO  [main] RtUtils:22 : ÏµÍ³Ê±Çø:Asia/Shanghai
+19:29:32.774  INFO  [main] Context:16 : Initializing Spring context.
+19:29:33.021  INFO  [main] Context:18 : Spring context initialized.
+19:29:33.022  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+19:32:09.060  INFO  [main] PosServer:17 : ÎäÉÌÍ£³µ³¡·şÎñ(19.01.23.1)
+19:32:09.063  INFO  [main] RtUtils:17 : ĞéÄâ»úÃû×Ö:Java HotSpot(TM) 64-Bit Server VM
+19:32:09.064  INFO  [main] RtUtils:18 : ĞéÄâ»ú°æ±¾:25.202-b08
+19:32:09.065  INFO  [main] RtUtils:19 : ĞéÄâ»ú³§ÉÌ:Oracle Corporation
+19:32:09.065  INFO  [main] RtUtils:20 : ÏµÍ³°æ±¾:1.8.0_202
+19:32:09.065  INFO  [main] RtUtils:21 : ÏµÍ³³§ÉÌ:Oracle Corporation
+19:32:09.066  INFO  [main] RtUtils:22 : ÏµÍ³Ê±Çø:Asia/Shanghai
+19:32:09.070  INFO  [main] Context:16 : Initializing Spring context.
+19:32:09.331  INFO  [main] Context:18 : Spring context initialized.
+19:32:09.331  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+19:32:25.641  INFO  [main] PosServer:17 : æ­¦å•†åœè½¦åœºæœåŠ¡(19.01.23.1)
+19:32:25.646  INFO  [main] RtUtils:17 : è™šæ‹Ÿæœºåå­—:Java HotSpot(TM) 64-Bit Server VM
+19:32:25.646  INFO  [main] RtUtils:18 : è™šæ‹Ÿæœºç‰ˆæœ¬:25.202-b08
+19:32:25.647  INFO  [main] RtUtils:19 : è™šæ‹Ÿæœºå‚å•†:Oracle Corporation
+19:32:25.647  INFO  [main] RtUtils:20 : ç³»ç»Ÿç‰ˆæœ¬:1.8.0_202
+19:32:25.647  INFO  [main] RtUtils:21 : ç³»ç»Ÿå‚å•†:Oracle Corporation
+19:32:25.648  INFO  [main] RtUtils:22 : ç³»ç»Ÿæ—¶åŒº:Asia/Shanghai
+19:32:25.654  INFO  [main] Context:16 : Initializing Spring context.
+19:32:26.180  INFO  [main] Context:18 : Spring context initialized.
+19:32:26.181  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+20:54:38.579  INFO  [main] PosServer:17 : æ­¦å•†åœè½¦åœºæœåŠ¡(19.01.23.1)
+20:54:38.585  INFO  [main] RtUtils:17 : è™šæ‹Ÿæœºåå­—:Java HotSpot(TM) 64-Bit Server VM
+20:54:38.585  INFO  [main] RtUtils:18 : è™šæ‹Ÿæœºç‰ˆæœ¬:25.202-b08
+20:54:38.585  INFO  [main] RtUtils:19 : è™šæ‹Ÿæœºå‚å•†:Oracle Corporation
+20:54:38.586  INFO  [main] RtUtils:20 : ç³»ç»Ÿç‰ˆæœ¬:1.8.0_202
+20:54:38.587  INFO  [main] RtUtils:21 : ç³»ç»Ÿå‚å•†:Oracle Corporation
+20:54:38.587  INFO  [main] RtUtils:22 : ç³»ç»Ÿæ—¶åŒº:Asia/Shanghai
+20:54:38.594  INFO  [main] Context:16 : Initializing Spring context.
+20:54:38.955  INFO  [main] Context:18 : Spring context initialized.
+20:54:38.956  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102

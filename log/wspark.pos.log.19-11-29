@@ -1,0 +1,1310 @@
+09:35:08.334  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+09:35:08.553  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+09:35:08.553  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+09:35:08.553  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+09:35:08.553  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+09:35:08.553  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+09:35:08.553  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+09:35:08.693  INFO  [main] Context:16 : Initializing Spring context.
+09:35:12.305  INFO  [main] Context:18 : Spring context initialized.
+09:35:12.305  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+09:35:26.637  DEBUG [Thread-1] Listener:72 : /189.0.1.81:55799
+09:36:25.392 189.0.1.81 WARN  [taskExecutor-1] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:61)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+09:36:25.455  DEBUG [Thread-1] Listener:72 : /189.0.1.81:55815
+09:37:15.457 189.0.1.81 WARN  [taskExecutor-2] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+09:37:15.457  DEBUG [Thread-1] Listener:72 : /189.0.1.81:55828
+09:38:05.463 189.0.1.81 WARN  [taskExecutor-3] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+09:38:05.478  DEBUG [Thread-1] Listener:72 : /189.0.1.81:55839
+09:38:55.497 189.0.1.81 WARN  [taskExecutor-4] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+09:38:55.497  DEBUG [Thread-1] Listener:72 : /189.0.1.81:55847
+09:39:45.499 189.0.1.81 WARN  [taskExecutor-5] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+09:39:45.499  DEBUG [Thread-1] Listener:72 : /189.0.1.81:55860
+09:40:11.189 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:29 : request: cmb$e1QobylVNCSa
+09:40:12.177 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:36 : response: XXXXX:0:0
+09:40:12.302  DEBUG [Thread-1] Listener:72 : /189.0.1.81:55869
+09:41:02.308 189.0.1.81 WARN  [taskExecutor-2] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+09:41:02.308  DEBUG [Thread-1] Listener:72 : /189.0.1.81:55879
+09:41:52.309 189.0.1.81 WARN  [taskExecutor-3] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+09:41:52.309  DEBUG [Thread-1] Listener:72 : /189.0.1.81:55886
+09:42:42.333 189.0.1.81 WARN  [taskExecutor-4] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+09:42:42.359  DEBUG [Thread-1] Listener:72 : /189.0.1.81:55925
+09:43:32.360 189.0.1.81 WARN  [taskExecutor-5] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+09:43:32.365  DEBUG [Thread-1] Listener:72 : /189.0.1.81:55984
+09:44:22.376 189.0.1.81 WARN  [taskExecutor-1] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+09:44:22.384  DEBUG [Thread-1] Listener:72 : /189.0.1.81:56007
+09:45:12.384 189.0.1.81 WARN  [taskExecutor-2] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+09:45:12.389  DEBUG [Thread-1] Listener:72 : /189.0.1.81:56028
+09:46:02.389 189.0.1.81 WARN  [taskExecutor-3] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+09:46:02.488  DEBUG [Thread-1] Listener:72 : /189.0.1.81:56046
+09:47:22.257 189.0.1.81 WARN  [taskExecutor-4] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:61)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+09:47:23.944  DEBUG [Thread-1] Listener:72 : /189.0.1.81:56068
+09:47:36.970 189.0.1.81 DEBUG [taskExecutor-5] Dispatcher:29 : request:   cmb$e1QobylVNC
+09:47:36.970 189.0.1.81 WARN  [taskExecutor-5] Dispatcher:40 : 
+java.lang.Exception: ��֧�ֵ�POS����:  cmb
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.getCommandHandler(Dispatcher.java:91)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:34)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+09:47:37.033  DEBUG [Thread-1] Listener:72 : /189.0.1.81:56069
+09:48:27.034 189.0.1.81 WARN  [taskExecutor-1] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+09:48:27.085  DEBUG [Thread-1] Listener:72 : /189.0.1.81:56080
+09:49:17.086 189.0.1.81 WARN  [taskExecutor-2] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+09:49:17.119  DEBUG [Thread-1] Listener:72 : /189.0.1.81:56090
+09:50:07.120 189.0.1.81 WARN  [taskExecutor-3] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+09:50:07.157  DEBUG [Thread-1] Listener:72 : /189.0.1.81:56105
+09:50:57.160 189.0.1.81 WARN  [taskExecutor-4] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+09:50:57.167  DEBUG [Thread-1] Listener:72 : /189.0.1.81:56115
+09:51:47.168 189.0.1.81 WARN  [taskExecutor-5] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+09:51:47.179  DEBUG [Thread-1] Listener:72 : /189.0.1.81:56127
+09:52:37.180 189.0.1.81 WARN  [taskExecutor-1] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+09:52:37.185  DEBUG [Thread-1] Listener:72 : /189.0.1.81:56192
+09:54:22.104 189.0.1.81 WARN  [taskExecutor-2] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:61)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+09:54:22.318  DEBUG [Thread-1] Listener:72 : /189.0.1.81:56245
+09:55:12.339 189.0.1.81 WARN  [taskExecutor-3] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+09:55:12.362  DEBUG [Thread-1] Listener:72 : /189.0.1.81:56262
+09:56:02.377 189.0.1.81 WARN  [taskExecutor-4] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+09:56:02.390  DEBUG [Thread-1] Listener:72 : /189.0.1.81:56285
+09:56:52.392 189.0.1.81 WARN  [taskExecutor-5] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+09:56:52.402  DEBUG [Thread-1] Listener:72 : /189.0.1.81:56291
+09:57:42.412 189.0.1.81 WARN  [taskExecutor-1] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+09:57:42.427  DEBUG [Thread-1] Listener:72 : /189.0.1.81:56303
+09:58:32.445 189.0.1.81 WARN  [taskExecutor-2] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+09:58:32.478  DEBUG [Thread-1] Listener:72 : /189.0.1.81:56319
+09:59:22.511 189.0.1.81 WARN  [taskExecutor-3] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+09:59:22.516  DEBUG [Thread-1] Listener:72 : /189.0.1.81:56327
+10:00:12.518 189.0.1.81 WARN  [taskExecutor-4] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+10:00:12.533  DEBUG [Thread-1] Listener:72 : /189.0.1.81:56341
+10:01:02.534 189.0.1.81 WARN  [taskExecutor-5] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+10:01:02.568  DEBUG [Thread-1] Listener:72 : /189.0.1.81:56357
+10:01:52.569 189.0.1.81 WARN  [taskExecutor-1] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+10:01:52.598  DEBUG [Thread-1] Listener:72 : /189.0.1.81:56444
+10:02:43.420 189.0.1.81 WARN  [taskExecutor-2] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+10:02:43.465  DEBUG [Thread-1] Listener:72 : /189.0.1.81:56557
+10:03:30.631 189.0.1.81 WARN  [taskExecutor-3] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+10:05:03.912  DEBUG [Thread-1] Listener:72 : /189.0.1.81:56643
+10:06:34.791 189.0.1.81 WARN  [taskExecutor-4] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:61)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+10:06:38.462  DEBUG [Thread-1] Listener:72 : /189.0.1.81:56670
+10:07:02.657 189.0.1.81 WARN  [taskExecutor-5] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:61)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+10:07:04.214  DEBUG [Thread-1] Listener:72 : /189.0.1.81:56672
+10:07:54.235 189.0.1.81 WARN  [taskExecutor-1] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+10:21:09.833  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+10:21:09.853  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+10:21:09.853  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+10:21:09.853  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+10:21:09.853  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+10:21:09.853  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+10:21:09.853  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+10:21:09.883  INFO  [main] Context:16 : Initializing Spring context.
+10:21:11.542  INFO  [main] Context:18 : Spring context initialized.
+10:21:11.542  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+10:25:24.254  DEBUG [Thread-1] Listener:72 : /189.0.1.81:50424
+10:26:14.343 189.0.1.81 WARN  [taskExecutor-1] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+10:26:22.147  DEBUG [Thread-1] Listener:72 : /189.0.1.81:50444
+10:29:14.858 189.0.1.81 WARN  [taskExecutor-2] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:61)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+10:31:29.826  DEBUG [Thread-1] Listener:72 : /189.0.1.81:50514
+10:32:22.532 189.0.1.81 WARN  [taskExecutor-3] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:61)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+10:32:33.436  DEBUG [Thread-1] Listener:72 : /189.0.1.81:50523
+10:33:38.058 189.0.1.81 WARN  [taskExecutor-4] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+10:38:25.556  DEBUG [Thread-1] Listener:72 : /189.0.1.81:53011
+10:38:52.485  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+10:38:52.492  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+10:38:52.492  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+10:38:52.492  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+10:38:52.493  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+10:38:52.493  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+10:38:52.493  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+10:38:52.498  INFO  [main] Context:16 : Initializing Spring context.
+10:38:52.999  INFO  [main] Context:18 : Spring context initialized.
+10:38:53.000  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+10:41:18.512  DEBUG [Thread-1] Listener:72 : /189.0.1.81:53095
+10:42:45.928 189.0.1.81 WARN  [taskExecutor-1] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:61)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+12:37:48.472  DEBUG [Thread-1] Listener:72 : /189.0.1.81:55310
+12:39:31.155  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+12:39:31.161  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+12:39:31.161  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+12:39:31.161  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+12:39:31.162  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+12:39:31.163  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+12:39:31.163  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+12:39:31.170  INFO  [main] Context:16 : Initializing Spring context.
+12:39:31.537  INFO  [main] Context:18 : Spring context initialized.
+12:39:31.538  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+12:39:44.375  DEBUG [Thread-1] Listener:73 : /189.0.1.81:55347
+12:41:19.756 189.0.1.81 WARN  [taskExecutor-1] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+12:41:19.758  DEBUG [Thread-1] Listener:73 : /189.0.1.81:55367
+12:41:21.242  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+12:41:21.247  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+12:41:21.247  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+12:41:21.247  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+12:41:21.247  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+12:41:21.248  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+12:41:21.248  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+12:41:21.253  INFO  [main] Context:16 : Initializing Spring context.
+12:41:21.618  INFO  [main] Context:18 : Spring context initialized.
+12:41:21.619  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+12:41:29.833  DEBUG [Thread-1] Listener:73 : /189.0.1.81:55373
+12:41:57.890  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+12:41:57.896  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+12:41:57.897  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+12:41:57.897  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+12:41:57.897  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+12:41:57.898  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+12:41:57.898  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+12:41:57.904  INFO  [main] Context:16 : Initializing Spring context.
+12:41:58.278  INFO  [main] Context:18 : Spring context initialized.
+12:41:58.278  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+12:42:15.063  DEBUG [Thread-1] Listener:73 : /189.0.1.81:55394
+12:43:12.669  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+12:43:12.673  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+12:43:12.674  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+12:43:12.674  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+12:43:12.674  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+12:43:12.675  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+12:43:12.675  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+12:43:12.682  INFO  [main] Context:16 : Initializing Spring context.
+12:43:13.079  INFO  [main] Context:18 : Spring context initialized.
+12:43:13.080  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+12:43:26.839  DEBUG [Thread-1] Listener:73 : /189.0.1.81:55423
+12:44:21.111  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+12:44:21.116  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+12:44:21.116  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+12:44:21.116  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+12:44:21.116  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+12:44:21.117  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+12:44:21.117  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+12:44:21.122  INFO  [main] Context:16 : Initializing Spring context.
+12:44:21.492  INFO  [main] Context:18 : Spring context initialized.
+12:44:21.493  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+12:44:29.273  DEBUG [Thread-1] Listener:73 : /189.0.1.81:55446
+13:28:38.234 189.0.1.81 WARN  [taskExecutor-1] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+13:28:38.238  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56037
+13:28:39.773  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+13:28:39.779  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+13:28:39.779  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+13:28:39.779  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+13:28:39.780  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+13:28:39.781  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+13:28:39.781  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+13:28:39.786  INFO  [main] Context:16 : Initializing Spring context.
+13:28:40.161  INFO  [main] Context:18 : Spring context initialized.
+13:28:40.161  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+13:29:20.076  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56057
+13:33:12.649  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+13:33:12.653  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+13:33:12.653  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+13:33:12.654  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+13:33:12.654  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+13:33:12.654  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+13:33:12.655  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+13:33:12.662  INFO  [main] Context:16 : Initializing Spring context.
+13:33:13.022  INFO  [main] Context:18 : Spring context initialized.
+13:33:13.022  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+13:33:22.059  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56117
+13:33:52.667  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+13:33:52.671  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+13:33:52.672  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+13:33:52.672  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+13:33:52.672  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+13:33:52.672  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+13:33:52.673  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+13:33:52.678  INFO  [main] Context:16 : Initializing Spring context.
+13:33:53.346  INFO  [main] Context:18 : Spring context initialized.
+13:33:53.347  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+13:34:20.123  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56141
+13:34:46.743  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+13:34:46.748  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+13:34:46.748  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+13:34:46.748  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+13:34:46.748  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+13:34:46.749  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+13:34:46.749  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+13:34:46.755  INFO  [main] Context:16 : Initializing Spring context.
+13:34:47.123  INFO  [main] Context:18 : Spring context initialized.
+13:34:47.124  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+13:34:52.235  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56156
+13:36:05.352  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+13:36:05.357  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+13:36:05.358  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+13:36:05.358  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+13:36:05.358  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+13:36:05.359  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+13:36:05.359  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+13:36:05.368  INFO  [main] Context:16 : Initializing Spring context.
+13:36:05.770  INFO  [main] Context:18 : Spring context initialized.
+13:36:05.771  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+13:36:35.340  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56193
+13:37:07.537  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56201
+13:37:57.540 189.0.1.81 WARN  [taskExecutor-3] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+13:37:57.542  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56209
+13:38:47.543 189.0.1.81 WARN  [taskExecutor-4] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+13:38:47.545  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56221
+13:39:37.546 189.0.1.81 WARN  [taskExecutor-5] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+13:39:37.549  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56239
+13:40:27.552 189.0.1.81 WARN  [taskExecutor-6] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+13:40:27.554  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56248
+13:41:17.556 189.0.1.81 WARN  [taskExecutor-2] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+13:41:17.557  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56258
+13:42:07.559 189.0.1.81 WARN  [taskExecutor-3] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+13:42:07.562  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56266
+13:42:55.843  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+13:42:55.843  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+13:42:55.843  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+13:42:55.843  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+13:42:55.843  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+13:42:55.843  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+13:42:55.843  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+13:42:55.843  INFO  [main] Context:16 : Initializing Spring context.
+13:42:56.205  INFO  [main] Context:18 : Spring context initialized.
+13:42:56.221  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+13:43:31.260  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56304
+13:44:21.266 189.0.1.81 WARN  [taskExecutor-1] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+13:44:21.273  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56320
+13:44:22.124 189.0.1.81 WARN  [taskExecutor-2] Dispatcher:40 : 
+java.lang.ArrayIndexOutOfBoundsException: length == 20 off == 0 buffer length == 16
+	at java.net.SocketInputStream.read(SocketInputStream.java:162)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:62)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+13:44:22.128  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56321
+13:44:39.185  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56325
+13:45:29.187 189.0.1.81 WARN  [taskExecutor-5] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+13:45:29.189  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56336
+13:45:57.957  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+13:45:57.963  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+13:45:57.963  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+13:45:57.963  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+13:45:57.963  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+13:45:57.964  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+13:45:57.964  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+13:45:57.970  INFO  [main] Context:16 : Initializing Spring context.
+13:45:58.347  INFO  [main] Context:18 : Spring context initialized.
+13:45:58.348  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+13:46:15.794  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56352
+13:47:32.454  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+13:47:32.460  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+13:47:32.461  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+13:47:32.461  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+13:47:32.461  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+13:47:32.461  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+13:47:32.462  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+13:47:32.467  INFO  [main] Context:16 : Initializing Spring context.
+13:47:32.826  INFO  [main] Context:18 : Spring context initialized.
+13:47:32.826  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+13:47:40.995  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56377
+13:52:46.349 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:29 : request: cmb$e1QobylVNCSa
+13:52:49.448  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+13:52:49.453  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+13:52:49.453  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+13:52:49.453  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+13:52:49.454  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+13:52:49.454  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+13:52:49.455  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+13:52:49.460  INFO  [main] Context:16 : Initializing Spring context.
+13:52:49.818  INFO  [main] Context:18 : Spring context initialized.
+13:52:49.819  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+13:53:24.834  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56466
+13:53:33.245 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:62 : qqqqqqqqqqqq:16
+13:53:44.859 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:29 : request: cmb$e1QobylVNCSa
+13:53:44.892 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:36 : response: XXXXX:0:0
+13:53:44.914  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56470
+13:54:34.915 189.0.1.81 WARN  [taskExecutor-2] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+13:54:34.917  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56485
+13:55:24.918 189.0.1.81 WARN  [taskExecutor-3] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+13:55:24.920  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56496
+13:55:50.219 189.0.1.81 DEBUG [taskExecutor-4] Dispatcher:62 : qqqqqqqqqqqq:16
+13:57:57.826 189.0.1.81 DEBUG [taskExecutor-4] Dispatcher:29 : request: cmb$e1QobylVNCSa
+13:57:57.829 189.0.1.81 DEBUG [taskExecutor-4] Dispatcher:36 : response: XXXXX:0:0
+13:57:57.835  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56521
+13:58:00.841  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+13:58:00.849  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+13:58:00.850  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+13:58:00.850  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+13:58:00.850  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+13:58:00.852  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+13:58:00.852  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+13:58:00.859  INFO  [main] Context:16 : Initializing Spring context.
+13:58:01.277  INFO  [main] Context:18 : Spring context initialized.
+13:58:01.278  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+13:58:28.513  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56536
+13:58:50.861  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56546
+13:59:40.121  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+13:59:40.137  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+13:59:40.137  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+13:59:40.137  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+13:59:40.137  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+13:59:40.137  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+13:59:40.137  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+13:59:40.137  INFO  [main] Context:16 : Initializing Spring context.
+13:59:40.499  INFO  [main] Context:18 : Spring context initialized.
+13:59:40.499  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+13:59:50.746  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56566
+14:00:03.879 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:63 : logqqqqqqqqqqqq:1109602352
+14:00:53.881 189.0.1.81 WARN  [taskExecutor-1] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:64)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+14:00:53.886  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56581
+14:00:55.594 189.0.1.81 DEBUG [taskExecutor-2] Dispatcher:63 : logqqqqqqqqqqqq:16
+14:01:06.923 189.0.1.81 DEBUG [taskExecutor-2] Dispatcher:29 : request:              
+14:01:06.923 189.0.1.81 WARN  [taskExecutor-2] Dispatcher:40 : 
+java.lang.Exception: ��֧�ֵ�POS����:
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.getCommandHandler(Dispatcher.java:94)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:34)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+14:01:06.939  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56586
+14:01:08.987 189.0.1.81 DEBUG [taskExecutor-3] Dispatcher:63 : logqqqqqqqqqqqq:16
+14:01:20.498 189.0.1.81 DEBUG [taskExecutor-3] Dispatcher:29 : request:               
+14:01:20.498 189.0.1.81 WARN  [taskExecutor-3] Dispatcher:40 : 
+java.lang.Exception: ��֧�ֵ�POS����:
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.getCommandHandler(Dispatcher.java:94)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:34)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+14:01:20.502  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56587
+14:01:21.866 189.0.1.81 DEBUG [taskExecutor-4] Dispatcher:63 : logqqqqqqqqqqqq:16
+14:02:08.795 189.0.1.81 DEBUG [taskExecutor-4] Dispatcher:29 : request:             
+14:02:08.796 189.0.1.81 WARN  [taskExecutor-4] Dispatcher:40 : 
+java.lang.Exception: ��֧�ֵ�POS����:
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.getCommandHandler(Dispatcher.java:94)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:34)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+14:02:08.799  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56596
+14:02:09.962 189.0.1.81 DEBUG [taskExecutor-5] Dispatcher:63 : logqqqqqqqqqqqq:32
+14:02:59.964 189.0.1.81 WARN  [taskExecutor-5] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:64)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+14:02:59.967  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56612
+14:03:00.293 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:63 : logqqqqqqqqqqqq:610430307
+14:03:44.049 189.0.1.81 WARN  [taskExecutor-1] Dispatcher:40 : 
+java.io.EOFException
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:40)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:64)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+14:03:45.241  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56619
+14:03:48.074 189.0.1.81 DEBUG [taskExecutor-2] Dispatcher:63 : logqqqqqqqqqqqq:32
+14:04:05.882 189.0.1.81 DEBUG [taskExecutor-2] Dispatcher:29 : request: cmb$e1QobylVNCSaOkB4:4:0cmb$e1Qo
+14:06:53.980  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+14:06:53.996  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+14:06:53.996  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+14:06:53.996  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+14:06:53.996  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+14:06:53.996  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+14:06:53.996  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+14:06:53.996  INFO  [main] Context:16 : Initializing Spring context.
+14:06:54.366  INFO  [main] Context:18 : Spring context initialized.
+14:06:54.367  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+14:07:16.978  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56674
+14:08:21.813 189.0.1.81 WARN  [taskExecutor-1] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+14:08:21.824  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56693
+14:08:51.655 189.0.1.81 DEBUG [taskExecutor-2] Dispatcher:63 : logqqqqqqqqqqqq:610430307
+14:09:50.845  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+14:09:50.849  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+14:09:50.849  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+14:09:50.849  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+14:09:50.849  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+14:09:50.850  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+14:09:50.850  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+14:09:50.856  INFO  [main] Context:16 : Initializing Spring context.
+14:09:51.255  INFO  [main] Context:18 : Spring context initialized.
+14:09:51.256  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+14:10:54.272  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56732
+14:11:06.866 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:63 : logqqqqqqqqqqqq:17
+14:11:46.395  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+14:11:46.479  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+14:11:46.480  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+14:11:46.480  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+14:11:46.492  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+14:11:46.493  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+14:11:46.496  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+14:11:46.621  INFO  [main] Context:16 : Initializing Spring context.
+14:11:47.046  INFO  [main] Context:18 : Spring context initialized.
+14:11:47.047  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+14:12:52.650  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56762
+14:12:53.833 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:63 : logqqqqqqqqqqqq:4113
+14:13:43.836 189.0.1.81 WARN  [taskExecutor-1] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:64)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+14:13:43.842  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56780
+14:14:33.844 189.0.1.81 WARN  [taskExecutor-2] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+14:14:33.851  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56798
+14:14:51.460  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+14:14:51.464  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+14:14:51.465  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+14:14:51.465  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+14:14:51.465  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+14:14:51.466  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+14:14:51.466  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+14:14:51.473  INFO  [main] Context:16 : Initializing Spring context.
+14:14:51.837  INFO  [main] Context:18 : Spring context initialized.
+14:14:51.838  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+14:15:10.657  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56811
+14:15:11.617 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:63 : logqqqqqqqqqqqq:18
+14:15:34.949  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+14:15:34.958  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+14:15:34.958  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+14:15:34.958  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+14:15:34.960  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+14:15:34.962  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+14:15:34.964  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+14:15:34.980  INFO  [main] Context:16 : Initializing Spring context.
+14:15:35.460  INFO  [main] Context:18 : Spring context initialized.
+14:15:35.461  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+14:15:49.194  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56824
+14:15:53.490 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:63 : logqqqqqqqqqqqq:24
+14:16:43.493 189.0.1.81 WARN  [taskExecutor-1] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:64)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+14:16:43.501  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56832
+14:17:12.363 189.0.1.81 DEBUG [taskExecutor-2] Dispatcher:63 : logqqqqqqqqqqqq:610430307
+14:17:23.246  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+14:17:23.251  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+14:17:23.251  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+14:17:23.251  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+14:17:23.251  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+14:17:23.252  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+14:17:23.252  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+14:17:23.258  INFO  [main] Context:16 : Initializing Spring context.
+14:17:23.620  INFO  [main] Context:18 : Spring context initialized.
+14:17:23.621  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+14:17:36.905  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56851
+14:17:42.578 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:63 : logqqqqqqqqqqqq:24
+14:17:48.753 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:29 : request: cmb$e1QobylVNCSaOkB4:4:0
+14:21:32.206  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+14:21:32.212  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+14:21:32.213  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+14:21:32.213  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+14:21:32.213  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+14:21:32.213  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+14:21:32.213  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+14:21:32.321  INFO  [main] Context:16 : Initializing Spring context.
+14:21:32.966  INFO  [main] Context:18 : Spring context initialized.
+14:21:32.967  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+14:21:43.544  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56921
+14:21:54.257 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:63 : logqqqqqqqqqqqq:24
+14:22:10.889 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:29 : request: cmb$e1QobylVNCSaOkB4:9:9
+14:25:27.392  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+14:25:27.403  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+14:25:27.403  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+14:25:27.403  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+14:25:27.403  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+14:25:27.404  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+14:25:27.404  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+14:25:27.409  INFO  [main] Context:16 : Initializing Spring context.
+14:25:27.773  INFO  [main] Context:18 : Spring context initialized.
+14:25:27.775  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+14:26:19.840  DEBUG [Thread-1] Listener:73 : /189.0.1.81:56996
+14:26:25.610 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:63 : logqqqqqqqqqqqq:24
+14:26:45.395 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:29 : request: cmb$e1QobylVNCSaOkB4:8:8
+14:30:23.298 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:36 : response: XXXXX:0:0
+14:30:23.308  DEBUG [Thread-1] Listener:73 : /189.0.1.81:57047
+14:30:24.288  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+14:30:24.288  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+14:30:24.288  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+14:30:24.288  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+14:30:24.288  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+14:30:24.288  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+14:30:24.288  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+14:30:24.304  INFO  [main] Context:16 : Initializing Spring context.
+14:30:25.162  INFO  [main] Context:18 : Spring context initialized.
+14:30:25.163  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+14:30:52.775  DEBUG [Thread-1] Listener:73 : /189.0.1.81:57060
+14:31:10.297 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:63 : logqqqqqqqqqqqq:24
+14:31:30.664 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:29 : request: cmb$e1QobylVNCSaOkB4:6:6
+14:31:35.836 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:36 : response: e1QobylVNCSaOkB4:0:0
+14:31:35.839  DEBUG [Thread-1] Listener:73 : /189.0.1.81:57070
+14:32:25.841 189.0.1.81 WARN  [taskExecutor-2] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+14:32:25.845  DEBUG [Thread-1] Listener:73 : /189.0.1.81:57078
+14:33:15.854 189.0.1.81 WARN  [taskExecutor-3] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+14:33:15.854  DEBUG [Thread-1] Listener:73 : /189.0.1.81:57097
+14:33:38.702  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+14:33:38.707  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+14:33:38.707  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+14:33:38.708  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+14:33:38.708  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+14:33:38.708  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+14:33:38.708  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+14:33:38.715  INFO  [main] Context:16 : Initializing Spring context.
+14:33:39.084  INFO  [main] Context:18 : Spring context initialized.
+14:33:39.085  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+14:33:52.880  DEBUG [Thread-1] Listener:73 : /189.0.1.81:57115
+14:34:11.611 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:63 : logqqqqqqqqqqqq:610430307
+14:34:30.108  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+14:34:30.110  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+14:34:30.110  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+14:34:30.110  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+14:34:30.110  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+14:34:30.110  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+14:34:30.110  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+14:34:30.110  INFO  [main] Context:16 : Initializing Spring context.
+14:34:30.484  INFO  [main] Context:18 : Spring context initialized.
+14:34:30.484  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+14:34:38.423  DEBUG [Thread-1] Listener:73 : /189.0.1.81:57129
+14:34:41.762 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:63 : logqqqqqqqqqqqq:24
+14:35:03.728 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:29 : request: cmb$e1QobylVNCSaOkB4:1:1
+14:35:04.263 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:36 : response: e1QobylVNCSaOkB4:0:0
+14:35:04.271  DEBUG [Thread-1] Listener:73 : /189.0.1.81:57140
+14:35:54.272 189.0.1.81 WARN  [taskExecutor-2] Dispatcher:40 : 
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at cn.com.wushang.wspark.util.SocketUtils.recvFully(SocketUtils.java:38)
+	at cn.com.wushang.wspark.util.SocketUtils.recvInt(SocketUtils.java:58)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.receive(Dispatcher.java:59)
+	at cn.com.wushang.wspark.pos.server.implementor.Dispatcher.run(Dispatcher.java:28)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+14:35:54.275  DEBUG [Thread-1] Listener:73 : /189.0.1.81:57149
+14:36:17.241  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+14:36:17.247  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+14:36:17.247  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+14:36:17.247  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+14:36:17.248  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+14:36:17.248  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+14:36:17.248  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+14:36:17.254  INFO  [main] Context:16 : Initializing Spring context.
+14:36:17.603  INFO  [main] Context:18 : Spring context initialized.
+14:36:17.603  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+14:36:54.824  DEBUG [Thread-1] Listener:73 : /189.0.1.81:57174
+14:36:55.720 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:63 : logqqqqqqqqqqqq:24
+14:37:15.688 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:29 : request: cmb$e1QobylVNCSaOkB4:2:2
+14:39:19.618  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+14:39:19.624  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+14:39:19.624  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+14:39:19.624  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+14:39:19.624  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+14:39:19.624  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+14:39:19.625  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+14:39:19.631  INFO  [main] Context:16 : Initializing Spring context.
+14:39:20.015  INFO  [main] Context:18 : Spring context initialized.
+14:39:20.016  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+14:40:01.863  DEBUG [Thread-1] Listener:73 : /189.0.1.81:57222
+14:40:03.696 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:63 : logqqqqqqqqqqqq:24
+14:40:27.226 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:29 : request: cmb$e1QobylVNCSaOkB4:3:3
+14:49:46.147  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+14:49:46.147  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+14:49:46.147  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+14:49:46.147  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+14:49:46.147  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+14:49:46.147  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+14:49:46.147  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+14:49:46.162  INFO  [main] Context:16 : Initializing Spring context.
+14:49:46.952  INFO  [main] Context:18 : Spring context initialized.
+14:49:46.952  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+14:50:23.822  DEBUG [Thread-1] Listener:73 : /189.0.1.81:57392
+14:50:29.043 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:63 : logqqqqqqqqqqqq:808466737
+14:50:38.643  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+14:50:38.649  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+14:50:38.650  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+14:50:38.650  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+14:50:38.650  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+14:50:38.650  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+14:50:38.651  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+14:50:38.656  INFO  [main] Context:16 : Initializing Spring context.
+14:50:39.008  INFO  [main] Context:18 : Spring context initialized.
+14:50:39.009  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
+14:50:46.805  DEBUG [Thread-1] Listener:73 : /189.0.1.81:57404
+14:50:53.008 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:63 : logqqqqqqqqqqqq:25
+14:51:19.575 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:29 : request: cmb$e1QobylVNCSaOkB4:41:6
+15:01:00.433 189.0.1.81 DEBUG [taskExecutor-1] Dispatcher:36 : response: e1QobylVNCSaOkB4:1:1
+15:01:00.445  DEBUG [Thread-1] Listener:73 : /189.0.1.81:57548
+15:01:01.504  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+15:01:01.520  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+15:01:01.520  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+15:01:01.520  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+15:01:01.520  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+15:01:01.521  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+15:01:01.521  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+15:01:01.557  INFO  [main] Context:16 : Initializing Spring context.
+15:01:02.138  INFO  [main] Context:18 : Spring context initialized.
+15:01:02.138  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102

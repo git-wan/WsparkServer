@@ -1,0 +1,210 @@
+11:28:28.123  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+11:28:28.123  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+11:28:28.123  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+11:28:28.123  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+11:28:28.123  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+11:28:28.123  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+11:28:28.123  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+11:28:28.138  INFO  [main] Context:16 : Initializing Spring context.
+11:28:28.688  INFO  [main] Context:18 : Spring context initialized.
+11:28:28.688  INFO  [Thread-1] Listener:65 : listen: 189.0.1.65:5102
+11:28:28.688  WARN  [Thread-1] Listener:82 : 
+java.net.BindException: Cannot assign requested address: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at cn.com.wushang.wspark.pos.server.implementor.Listener.run(Listener.java:67)
+	at java.lang.Thread.run(Thread.java:748)
+11:30:10.141  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+11:30:10.156  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+11:30:10.156  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+11:30:10.156  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+11:30:10.156  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+11:30:10.156  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+11:30:10.156  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+11:30:10.156  INFO  [main] Context:16 : Initializing Spring context.
+11:30:10.522  INFO  [main] Context:18 : Spring context initialized.
+11:30:10.522  INFO  [Thread-1] Listener:65 : listen: 189.0.1.65:5102
+11:30:10.537  WARN  [Thread-1] Listener:82 : 
+java.net.BindException: Cannot assign requested address: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at cn.com.wushang.wspark.pos.server.implementor.Listener.run(Listener.java:67)
+	at java.lang.Thread.run(Thread.java:748)
+11:31:51.818  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+11:31:51.820  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+11:31:51.820  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+11:31:51.820  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+11:31:51.820  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+11:31:51.820  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+11:31:51.820  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+11:31:51.836  INFO  [main] Context:16 : Initializing Spring context.
+11:31:52.377  INFO  [main] Context:18 : Spring context initialized.
+11:31:52.377  INFO  [Thread-1] Listener:65 : listen: 189.0.1.65:5102
+11:31:52.377  WARN  [Thread-1] Listener:82 : 
+java.net.BindException: Cannot assign requested address: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at cn.com.wushang.wspark.pos.server.implementor.Listener.run(Listener.java:67)
+	at java.lang.Thread.run(Thread.java:748)
+13:14:47.334  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+13:14:47.334  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+13:14:47.334  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+13:14:47.334  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+13:14:47.334  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+13:14:47.334  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+13:14:47.334  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+13:14:47.334  INFO  [main] Context:16 : Initializing Spring context.
+13:14:47.646  INFO  [main] Context:18 : Spring context initialized.
+13:14:47.646  INFO  [Thread-1] Listener:65 : listen: 189.0.1.65:5102
+13:14:47.662  WARN  [Thread-1] Listener:82 : 
+java.net.BindException: Cannot assign requested address: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at cn.com.wushang.wspark.pos.server.implementor.Listener.run(Listener.java:67)
+	at java.lang.Thread.run(Thread.java:748)
+13:16:32.818  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+13:16:32.818  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+13:16:32.818  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+13:16:32.818  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+13:16:32.818  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+13:16:32.818  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+13:16:32.818  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+13:16:32.818  INFO  [main] Context:16 : Initializing Spring context.
+13:16:33.128  INFO  [main] Context:18 : Spring context initialized.
+13:16:33.128  INFO  [Thread-1] Listener:65 : listen: 189.0.1.65:5102
+13:16:33.128  WARN  [Thread-1] Listener:82 : 
+java.net.BindException: Cannot assign requested address: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at cn.com.wushang.wspark.pos.server.implementor.Listener.run(Listener.java:67)
+	at java.lang.Thread.run(Thread.java:748)
+13:17:45.854  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+13:17:45.854  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+13:17:45.854  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+13:17:45.854  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+13:17:45.854  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+13:17:45.854  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+13:17:45.854  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+13:17:45.872  INFO  [main] Context:16 : Initializing Spring context.
+13:17:46.159  INFO  [main] Context:18 : Spring context initialized.
+13:17:46.159  INFO  [Thread-1] Listener:65 : listen: 189.0.1.65:5102
+13:17:46.159  WARN  [Thread-1] Listener:82 : 
+java.net.BindException: Cannot assign requested address: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at cn.com.wushang.wspark.pos.server.implementor.Listener.run(Listener.java:67)
+	at java.lang.Thread.run(Thread.java:748)
+13:17:52.820  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+13:17:52.836  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+13:17:52.836  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+13:17:52.836  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+13:17:52.836  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+13:17:52.836  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+13:17:52.836  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+13:17:52.836  INFO  [main] Context:16 : Initializing Spring context.
+13:17:53.272  INFO  [main] Context:18 : Spring context initialized.
+13:17:53.272  INFO  [Thread-1] Listener:65 : listen: 189.0.1.65:5102
+13:24:28.381  WARN  [Thread-1] Listener:82 : 
+java.net.BindException: Cannot assign requested address: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at cn.com.wushang.wspark.pos.server.implementor.Listener.run(Listener.java:67)
+	at java.lang.Thread.run(Thread.java:748)
+13:24:42.644  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+13:24:42.644  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+13:24:42.644  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+13:24:42.644  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+13:24:42.644  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+13:24:42.644  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+13:24:42.644  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+13:24:42.660  INFO  [main] Context:16 : Initializing Spring context.
+13:24:43.022  INFO  [main] Context:18 : Spring context initialized.
+13:24:43.022  INFO  [Thread-1] Listener:65 : listen: 189.0.1.65:5102
+13:24:43.038  WARN  [Thread-1] Listener:82 : 
+java.net.BindException: Cannot assign requested address: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at cn.com.wushang.wspark.pos.server.implementor.Listener.run(Listener.java:67)
+	at java.lang.Thread.run(Thread.java:748)
+13:25:00.753  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+13:25:00.753  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+13:25:00.753  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+13:25:00.753  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+13:25:00.753  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+13:25:00.753  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+13:25:00.753  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+13:25:00.768  INFO  [main] Context:16 : Initializing Spring context.
+13:25:01.163  INFO  [main] Context:18 : Spring context initialized.
+13:25:01.163  INFO  [Thread-1] Listener:65 : listen: 189.0.1.65:5102
+13:30:05.407  WARN  [Thread-1] Listener:82 : 
+java.net.BindException: Cannot assign requested address: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at cn.com.wushang.wspark.pos.server.implementor.Listener.run(Listener.java:67)
+	at java.lang.Thread.run(Thread.java:748)
+13:30:10.349  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+13:30:10.349  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+13:30:10.349  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+13:30:10.349  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+13:30:10.349  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+13:30:10.349  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+13:30:10.349  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+13:30:10.365  INFO  [main] Context:16 : Initializing Spring context.
+13:30:10.738  INFO  [main] Context:18 : Spring context initialized.
+13:30:10.738  INFO  [Thread-1] Listener:65 : listen: 189.0.1.65:5102
+13:30:10.753  WARN  [Thread-1] Listener:82 : 
+java.net.BindException: Cannot assign requested address: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at cn.com.wushang.wspark.pos.server.implementor.Listener.run(Listener.java:67)
+	at java.lang.Thread.run(Thread.java:748)
+13:35:16.709  INFO  [main] PosServer:17 : 武商停车场服务(19.01.23.1)
+13:35:16.709  INFO  [main] RtUtils:17 : 虚拟机名字:Java HotSpot(TM) 64-Bit Server VM
+13:35:16.709  INFO  [main] RtUtils:18 : 虚拟机版本:25.202-b08
+13:35:16.709  INFO  [main] RtUtils:19 : 虚拟机厂商:Oracle Corporation
+13:35:16.709  INFO  [main] RtUtils:20 : 系统版本:1.8.0_202
+13:35:16.709  INFO  [main] RtUtils:21 : 系统厂商:Oracle Corporation
+13:35:16.725  INFO  [main] RtUtils:22 : 系统时区:Asia/Shanghai
+13:35:16.725  INFO  [main] Context:16 : Initializing Spring context.
+13:35:17.084  INFO  [main] Context:18 : Spring context initialized.
+13:35:17.084  INFO  [Thread-1] Listener:65 : listen: 189.0.1.81:5102
